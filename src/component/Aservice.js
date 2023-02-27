@@ -264,54 +264,54 @@ const Aservice = () => {
                             <span className="sp-color2">Our Clients</span>
                             <h2>We are Trusted clients across the United States</h2>
                         </div>
-                        <div id="carouselExampleInterval" class="carousel slide my-5" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="1000">
-                                    <img src={download1} class="img-fluid d-block mx-auto imgd" alt="..." />
-                                    <div class="carousel-caption see">
+                        <div id="carouselExampleInterval" className="carousel slide my-5" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgd" alt="..." />
+                                    <div className="carousel-caption see">
                                         <h3>Xavier</h3>
                                         <p>“It’s my pleasure to work with Stack Delta. Even though the first opportunity they presented wasn’t the right fit for me, it did not stop them from finding me a position that suits my skill sets and qualifications. I was presented with an awesome opportunity. I appreciate their efforts in helping individuals like me find the right opportunity.”</p>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="1000">
-                                    <img src={download1} class="img-fluid d-block mx-auto imgd" alt="..." />
-                                    <div class="carousel-caption see">
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgd" alt="..." />
+                                    <div className="carousel-caption see">
                                         <h3> Paul</h3>
                                         <p>
                                             “The staff at Stack Delta is incredibly responsive, professional, and honest. They were highly focused on finding roles that fit my criteria and my experience. They consider your flexibility, compensation and your work ability. I recommend others who are seeking new opportunities to contact Stack Delta.”
                                         </p>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="1000">
-                                    <img src={download1} class="img-fluid d-block mx-auto imgds" alt="..." />
-                                    <div class="carousel-caption see">
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgds" alt="..." />
+                                    <div className="carousel-caption see">
                                         <h3> Aman </h3>
                                         <p>
                                             “The team at Stack Delta has been amazing to work with. The team truly exceeds all expectations and provides qualified candidate profiles for our hiring needs. The type of candidates we receive from Stack Delta is remarkable - throughout the course of recent years we have had various promising workers for hire come through on impermanent bases who are currently a portion of our most grounded extremely durable increases to our staff. The staff is extremely watchful and brief with answering inquiries such as historical verifications, start dates, etc. The staff is proficient, productive, and dependable in offering extraordinary service.”
                                         </p>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="1000">
-                                    <img src={download1} class="img-fluid d-block mx-auto imgd" alt="..." />
-                                    <div class="carousel-caption see">
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgd" alt="..." />
+                                    <div className="carousel-caption see">
                                         <h3> Arjun</h3>
                                         <p>
                                             “Stack Delta has been very helpful towards finding me a role which matched my experience, skills and guided me throughout the process. I felt very comfortable asking any questions I had, and they have been very positive and professional. I would recommend Stack Delta to anyone looking for new employment opportunities.”
                                         </p>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="1000">
-                                    <img src={download1} class="img-fluid d-block mx-auto imgde" alt="..." />
-                                    <div class="carousel-caption see">
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgde" alt="..." />
+                                    <div className="carousel-caption see">
                                         <h3> Christina Cobb </h3>
                                         <p>
                                             “My involvement with working with Stack Delta has been exceptional. We are in consistent need of contractors for our clients. Some positions are temporary, and some are direct hire. Stack Delta submits resumes of professionals rapidly and efficiently. They give candidates who are proficient, talented, and meet the needs of various assignments. Stack Delta is proficient, productive, and dependable in offering remarkable candidates.”
                                         </p>
                                     </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="1000">
-                                    <img src={download1} class="img-fluid d-block mx-auto imgde" alt="..." />
-                                    <div class="carousel-caption see">
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgde" alt="..." />
+                                    <div className="carousel-caption see">
                                         <h3> Michelle Smith</h3>
                                         <p>
                                             “We had the pleasure of working with Stack Delta recently. They do an amazing job to give us qualified candidates for our temporary and permanent staffing needs. They take excellent thought of the abilities and capabilities we are searching for and assist us with filling our situations as soon possible. I wouldn't hold back to suggest Stack Delta for temporary and temporary to permanent employment needs.”
@@ -319,13 +319,13 @@ const Aservice = () => {
                                     </div>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
                             </button>
                         </div>
                     </div>
@@ -353,103 +353,94 @@ const Aservice = () => {
                         </div>
                     </div>
                 </section>
-                <footer class="footer-area footer-bg">
-                    <div class="container">
-                        <div class="footer-top pt-100 pb-70">
-                            <div class="row">
-                                <div class="col-lg-4 col-sm-6">
-                                    <div class="footer-widget">
-                                        <div class="footer-logo">
-                                            <a href="index.html">
+                <footer className="footer-area footer-bg">
+                    <div className="container">
+                        <div className="footer-top pt-5 pb-5">
+                            <div className="row">
+                                <div className="col-lg-4 col-sm-6">
+                                    <div className="footer-widget">
+                                        <div className="footer-logo">
+                                            <Link
+                                                to=""
+                                            >
                                                 <img src={footerlogo} alt="Images" />
-                                            </a>
+                                            </Link>
                                         </div>
-                                        <p>
-
-                                        </p>
-                                        <div class="footer-widget">
+                                        <div className="footer-widget">
                                             <h3>Newsletter</h3>
                                             <p>Join our newsletter and get latest updates.</p>
-                                            <div class="newsletter-area">
-                                                <form class="newsletter-form" width="100" data-toggle="validator" method="POST" novalidate="true">
-                                                    <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" id="newsemail" required="" autocomplete="off" />
-                                                    <button class="subscribe-btn disabled aaa" type="submit" >
-                                                        <i class="bx bx-paper-plane"></i>
+                                            <div className="newsletter-area">
+                                                <form className="newsletter-form" width="100" data-toggle="validator" novalidate="true">
+                                                    <input type="email" className="form-control" placeholder="Enter Your Email" name="EMAIL" id="newsemail" required autocomplete="on" />
+                                                    <button type="submit" className="subscribe-btn disabled aaa">
+                                                        <i className="fa fa-paper-plane"></i>
                                                     </button>
-                                                    <div id="validator-newsletter" class="form-result"></div>
+                                                    <div id="validator-newsletter" className="form-result"></div>
                                                 </form>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
-                                <div class="col-lg-1 col-sm-6"></div>
-
-                                <div class="col-lg-7 col-sm-6">
-                                    <div class="footer-widget pl-2">
+                                <div className="col-lg-1 col-sm-6"></div>
+                                <div className="col-lg-7 col-sm-6">
+                                    <div className="footer-widget pl-2">
                                         <h3>Services</h3>
-                                        <ul class="footer-list">
-                                            <div class="row">
-                                                <div class="col-lg-6">
+                                        <ul className="footer-list">
+                                            <div className="row">
+                                                <div className="col-lg-6">
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             Software Development
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             Mobile Development
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             Digital Services
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             QA &amp; Testing
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </div>
-                                                <div class="col-lg-6">
+                                                <div className="col-lg-6">
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             IT Consultancy services
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             Cloud Computing
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="services-1.html">
-                                                            <i class="bx bx-chevron-right"></i>
+                                                        <Link to="/services" className='a'>
+                                                            <i className="fa fa-angle-right pe-1"></i>
                                                             Professional Staffing solutions
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </div>
                                             </div>
-
-
                                         </ul>
                                     </div>
                                 </div>
-
-
-
                             </div>
                         </div>
-
-                        <div class="copy-right-area">
-                            <div class="copy-right-text text-center">
+                        <div className="copy-right-area">
+                            <div className="copy-right-text text-center">
                                 <p>
                                     Copyright © 2023 Stack Delta. All Rights Reserved by
                                     <Link
