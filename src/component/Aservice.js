@@ -40,36 +40,46 @@ const Aservice = () => {
                         <div className="collapse navbar-collapse" id="navbarText">
                             <div className="row">
                                 <div className="col-12">
-                                    <Link
-                                        to=""
-                                        className='cart stye d-block d-md-inline py-2 py-md-0'
-                                    >
-                                        Home
-                                    </Link>
-                                    <Link
-                                        to=""
-                                        className='cart stye d-block d-md-inline py-2 py-md-0'
-                                    >
-                                        About Us
-                                    </Link>
-                                    <Link
-                                        to=""
-                                        className='d-block d-md-inline py-2 py-md-0 active'
-                                    >
-                                        Services
-                                    </Link>
-                                    <Link
-                                        to=""
-                                        className='cart stye d-block d-md-inline py-2 py-md-0'
-                                    >
-                                        Careers
-                                    </Link>
-                                    <Link
-                                        to=""
-                                        className='cart stye d-block d-md-inline py-2 py-md-0'
-                                    >
-                                        Contact
-                                    </Link>
+                                    <h3>
+                                        <Link
+                                            to=""
+                                            className='cart stye d-block d-md-inline py-2 py-md-0'
+                                        >
+                                            Home
+                                        </Link>
+                                    </h3>
+                                    <h3>
+                                        <Link
+                                            to=""
+                                            className='cart stye d-block d-md-inline py-2 py-md-0'
+                                        >
+                                            About Us
+                                        </Link>
+                                    </h3>
+                                    <h3>
+                                        <Link
+                                            to=""
+                                            className='d-block d-md-inline py-2 py-md-0 active'
+                                        >
+                                            Services
+                                        </Link>
+                                    </h3>
+                                    <h3>
+                                        <Link
+                                            to=""
+                                            className='cart stye d-block d-md-inline py-2 py-md-0'
+                                        >
+                                            Careers
+                                        </Link>
+                                    </h3>
+                                    <h3>
+                                        <Link
+                                            to=""
+                                            className='cart stye d-block d-md-inline py-2 py-md-0'
+                                        >
+                                            Contact
+                                        </Link>
+                                    </h3>
                                     <span className='d-none d-md-inline'>
                                         <span>Support By : <a href="tel:+1(732)-838-4153" className='lin'>+1 (732)-838-4153</a></span>
                                         <Link
@@ -343,6 +353,116 @@ const Aservice = () => {
                         </div>
                     </div>
                 </section>
+                <footer class="footer-area footer-bg">
+                    <div class="container">
+                        <div class="footer-top pt-100 pb-70">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="footer-widget">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src={footerlogo} alt="Images" />
+                                            </a>
+                                        </div>
+                                        <p>
+
+                                        </p>
+                                        <div class="footer-widget">
+                                            <h3>Newsletter</h3>
+                                            <p>Join our newsletter and get latest updates.</p>
+                                            <div class="newsletter-area">
+                                                <form class="newsletter-form" width="100" data-toggle="validator" method="POST" novalidate="true">
+                                                    <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" id="newsemail" required="" autocomplete="off" />
+                                                    <button class="subscribe-btn disabled aaa" type="submit" >
+                                                        <i class="bx bx-paper-plane"></i>
+                                                    </button>
+                                                    <div id="validator-newsletter" class="form-result"></div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-1 col-sm-6"></div>
+
+                                <div class="col-lg-7 col-sm-6">
+                                    <div class="footer-widget pl-2">
+                                        <h3>Services</h3>
+                                        <ul class="footer-list">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            Software Development
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            Mobile Development
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            Digital Services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            QA &amp; Testing
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            IT Consultancy services
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            Cloud Computing
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="services-1.html">
+                                                            <i class="bx bx-chevron-right"></i>
+                                                            Professional Staffing solutions
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="copy-right-area">
+                            <div class="copy-right-text text-center">
+                                <p>
+                                    Copyright © 2023 Stack Delta. All Rights Reserved by
+                                    <Link
+                                        to=""
+                                        className='a mx-2'
+                                    >
+                                        Stack Delta
+                                    </Link>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </>
     )
