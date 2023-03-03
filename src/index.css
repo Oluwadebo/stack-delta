@@ -9,7 +9,6 @@ body {
   font-family: "Livvic", sans-serif;
   color: #444444;
   font-weight: 400;
-  /* text-align: justify; */
 }
 .logo {
   height: 43px;
@@ -334,7 +333,7 @@ img {
   transition: all 0.5s;
   text-decoration: none;
 }
-.copy-right-text .a:hover{
+.copy-right-text .a:hover {
   color: #0071dc;
   border-bottom: 1px solid #0071dc;
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import homefourimg from './asset/home-four-img.png'
-import footerlogo from './asset/footer-logo.png'
 import download from './asset/download.png'
 import download1 from './asset/download.jpg'
 import servicesimg1 from './asset/services-img1.jpg'
@@ -10,6 +9,7 @@ import servicesimg3 from './asset/services-img3.jpg'
 import servicesimg4 from './asset/services-img4.jpg'
 import servicesimg5 from './asset/services-img5.jpg'
 import servicesimg6 from './asset/services-img6.jpg'
+import Footer from './Footer';
 
 
 const Aservice = () => {
@@ -25,7 +25,7 @@ const Aservice = () => {
                 <nav className="navbar navbar-expand-lg bg-light fixed-top coles">
                     <div className="container">
                         <a className="navbar-brand">
-                            <img src={download} alt="amaricanexpress" className="logo" />
+                            <img src={download} alt="stack-delta" className="logo" />
                         </a>
                         <button
                             className="navbar-toggler"
@@ -42,7 +42,7 @@ const Aservice = () => {
                                 <div className="col-12">
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/"
                                             className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             Home
@@ -58,7 +58,7 @@ const Aservice = () => {
                                     </h3>
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/services"
                                             className='d-block d-md-inline py-2 py-md-0 active'
                                         >
                                             Services
@@ -148,13 +148,13 @@ const Aservice = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="blog-card">
                                     <div className="blog-img">
-                                        <Link to="/" className="lin">
+                                        <Link to="/services" className="lin">
                                             <img src={servicesimg1} alt="Blog Images" />
                                         </Link>
                                     </div>
                                     <div className="content">
                                         <h3>
-                                            <Link to="/" className="lin">
+                                            <Link to="/services" className="lin">
                                                 Software Development
                                             </Link>
                                         </h3>
@@ -166,13 +166,13 @@ const Aservice = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="blog-card">
                                     <div className="blog-img">
-                                        <Link to="/" className="lin">
+                                        <Link to="/services" className="lin">
                                             <img src={servicesimg2} alt="Blog Images" />
                                         </Link>
                                     </div>
                                     <div className="content">
                                         <h3>
-                                            <Link to="/" className="lin">
+                                            <Link to="/services" className="lin">
                                                 Mobile Development
                                             </Link>
                                         </h3>
@@ -184,13 +184,13 @@ const Aservice = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="blog-card">
                                     <div className="blog-img">
-                                        <Link to="/" className="lin">
+                                        <Link to="/services" className="lin">
                                             <img src={servicesimg3} alt="Blog Images" />
                                         </Link>
                                     </div>
                                     <div className="content">
                                         <h3>
-                                            <Link to="/" className="lin">
+                                            <Link to="/services" className="lin">
                                                 QA &amp; Testing
                                             </Link>
                                         </h3>
@@ -204,13 +204,13 @@ const Aservice = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="blog-card">
                                     <div className="blog-img">
-                                        <Link to="/" className="lin">
+                                        <Link to="/services" className="lin">
                                             <img src={servicesimg4} alt="Blog Images" />
                                         </Link>
                                     </div>
                                     <div className="content">
                                         <h3>
-                                            <Link to="/" className="lin">
+                                            <Link to="/services" className="lin">
                                                 IT Consultancy Services
                                             </Link>
                                         </h3>
@@ -222,13 +222,13 @@ const Aservice = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="blog-card">
                                     <div className="blog-img">
-                                        <Link to="/" className="lin">
+                                        <Link to="/services" className="lin">
                                             <img src={servicesimg5} alt="Blog Images" />
                                         </Link>
                                     </div>
                                     <div className="content">
                                         <h3>
-                                            <Link to="/" className="lin">
+                                            <Link to="/services" className="lin">
                                                 Professional Staffing Solutions
                                             </Link>
                                         </h3>
@@ -240,13 +240,13 @@ const Aservice = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="blog-card">
                                     <div className="blog-img">
-                                        <Link to="/" className="lin">
+                                        <Link to="/services" className="lin">
                                             <img src={servicesimg6} alt="Blog Images" />
                                         </Link>
                                     </div>
                                     <div className="content">
                                         <h3>
-                                            <Link to="/" className="lin">
+                                            <Link to="/services" className="lin">
                                                 Cloud Computing
                                             </Link>
                                         </h3>
@@ -353,107 +353,7 @@ const Aservice = () => {
                         </div>
                     </div>
                 </section>
-                <footer className="footer-area footer-bg">
-                    <div className="container">
-                        <div className="footer-top pt-5 pb-5">
-                            <div className="row">
-                                <div className="col-lg-4 col-sm-6">
-                                    <div className="footer-widget">
-                                        <div className="footer-logo">
-                                            <Link
-                                                to=""
-                                            >
-                                                <img src={footerlogo} alt="Images" />
-                                            </Link>
-                                        </div>
-                                        <div className="footer-widget">
-                                            <h3>Newsletter</h3>
-                                            <p>Join our newsletter and get latest updates.</p>
-                                            <div className="newsletter-area">
-                                                <form className="newsletter-form" width="100">
-                                                    <input type="email" className="form-control" placeholder="Enter Your Email" name="EMAIL" id="newsemail" required />
-                                                    <button type="submit" className="subscribe-btn disabled aaa">
-                                                        <i className="fa fa-paper-plane"></i>
-                                                    </button>
-                                                    <div id="" className="form-result"></div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-1 col-sm-6"></div>
-                                <div className="col-lg-7 col-sm-6">
-                                    <div className="footer-widget pl-2">
-                                        <h3>Services</h3>
-                                        <ul className="footer-list">
-                                            <div className="row">
-                                                <div className="col-lg-6">
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            Software Development
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            Mobile Development
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            Digital Services
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            QA &amp; Testing
-                                                        </Link>
-                                                    </li>
-                                                </div>
-                                                <div className="col-lg-6">
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            IT Consultancy services
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            Cloud Computing
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="/services" className='a'>
-                                                            <i className="fa fa-angle-right pe-1"></i>
-                                                            Professional Staffing solutions
-                                                        </Link>
-                                                    </li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="copy-right-area">
-                            <div className="copy-right-text text-center">
-                                <p>
-                                    Copyright © 2023 Stack Delta. All Rights Reserved by
-                                    <Link
-                                        to=""
-                                        className='a mx-2'
-                                    >
-                                        Stack Delta
-                                    </Link>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                <Footer/>
             </div>
         </>
     )
