@@ -106,216 +106,77 @@ const Home = () => {
                         <button onClick={scrollup} className="fa fa-angles-up scr"></button>
                     </div>
                 </nav>
-                <div class="banner-slider-area py-2">
-                    <div id="carouselExampleDark" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <div className="banner-slider-area">
+                    <div id="carouselExampleDark" className="carousel slide pt-5">
+                        <div className="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="100">
-                                <div className="styls">
-                                    <div class="carousel-caption">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active" data-bs-interval="1000">
+                                <div className="styls1">
+                                    <div className="carousel-caption">
                                         <div className="capt">
                                             <span>Only High Quality Services</span>
                                             <h1>Excellent IT Services for Your Success</h1>
                                             <p>
                                                 Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
                                             </p>
-                                            <div class="banner-btn">
+                                            <div className="banner-btn">
                                                 <Link
-                                                    to=""
+                                                    to="/About"
                                                     className='default-btn'
                                                 >
-                                                    Discover More <i class="fa fa-chevron-right"></i>
+                                                    Discover More <i className="fa fa-chevron-right"></i>
                                                 </Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={homeoneimg2} class="d-block w-100" alt="..." />
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src={homeoneimg3} class="d-block w-100" alt="..." />
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-slider owl-carousel owl-theme owl-loaded owl-drag">
-                        <div class="owl-stage-outer owl-height hi">
-                            <div class="owl-stage wi">
-                                <div class="owl-item cloned cls">
-                                    <div class="banner-item item-bg2">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>We Provide Best IT Services for Your Need</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="fa fa-angle-right"></i></a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned cls">
-                                    <div class="banner-item item-bg3">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>Digital IT Service With Excellent Quality</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cls">
-                                    <div class="banner-item item-bg1">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>Excellent IT Services for Your Success</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-                                                            {/* <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Get A Quote <i class='bx bx-chevron-right'></i></a> */}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cls">
-                                    <div class="banner-item item-bg2">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>We Provide Best IT Services for Your Need</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item active cls">
-                                    <div class="banner-item item-bg3">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>Digital IT Service With Excellent Quality</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned cls">
-                                    <div class="banner-item item-bg1">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>Excellent IT Services for Your Success</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-                                                            {/* <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Get A Quote <i class='bx bx-chevron-right'></i></a> */}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-item cloned cls">
-                                    <div class="banner-item item-bg2">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>We Provide Best IT Services for Your Need</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
+                            <div className="carousel-item" data-bs-interval="1000">
+                                <div className="styls2">
+                                    <div className="carousel-caption">
+                                        <div className="capt">
+                                            <span>Only High Quality Services</span>
+                                            <h1>We Provide Best IT Services for Your Need</h1>
+                                            <p>
+                                                Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
+                                            </p>
+                                            <div className="banner-btn">
+                                                <Link
+                                                    to="/About"
+                                                    className='default-btn'
+                                                >
+                                                    Discover More <i className="fa fa-chevron-right"></i>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="owl-nav disabled">
-                            <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
-                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
-                        </div>
-                        <div class="owl-dots">
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot"><span></span></button>
-                            <button role="button" class="owl-dot active"><span></span></button>
+                            <div className="carousel-item" data-bs-interval="1000">
+                                <div className="styls3">
+                                    <div className="carousel-caption">
+                                        <div className="capt">
+                                            <span>Only High Quality Services</span>
+                                            <h1>Digital IT Service With Excellent Quality</h1>
+                                            <p>
+                                                Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
+                                            </p>
+                                            <div className="banner-btn">
+                                                <Link
+                                                    to="/About"
+                                                    className='default-btn'
+                                                >
+                                                    Discover More <i className="fa fa-chevron-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
