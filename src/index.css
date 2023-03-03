@@ -9,6 +9,7 @@ body {
   font-family: "Livvic", sans-serif;
   color: #444444;
   font-weight: 400;
+  /* text-align: justify; */
 }
 .logo {
   height: 43px;
@@ -152,6 +153,10 @@ img {
   transition: 0.9s;
   border: 1px solid #f1f1f1;
 }
+.blog-card:hover .lin {
+  transition: 0.9s;
+  color: #ffc221;
+}
 .blog-card:hover {
   transform: translateY(-15px);
 }
@@ -180,10 +185,6 @@ img {
   transition: all 0.5s;
   color: #252525;
   text-decoration: none;
-}
-.lin:hover {
-  transition: 0.9s;
-  color: #ffc221;
 }
 .clients-area {
   position: relative;
@@ -386,6 +387,9 @@ img {
   font-size: 20px;
   transition: 0.5s;
 }
+.subscribe-btn:hover {
+  background-color: #000000;
+}
 .footer-list {
   list-style: none;
   margin: 0;
@@ -409,4 +413,54 @@ img {
 .footer-list li .fa {
   margin-right: 0;
   font-size: 16px;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #0071dc;
+  height: 200px;
+}
+.prev,
+.next {
+  border: #0071dc;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #15163b;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border: 1px solid #15163b;
+  border-radius: 50%;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 50%;
+}
+.prev:hover,
+.next:hover {
+  background-color: #15163b;
+  color: white;
+  transition: 0.9s;
+}
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 0px 60px;
+  position: absolute;
+  margin: 10px 0;
+  width: 100%;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
