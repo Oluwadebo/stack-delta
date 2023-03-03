@@ -417,3 +417,141 @@ img {
   margin-right: 0;
   font-size: 16px;
 }
+/* home page style */
+.cls {
+  width: 988px;
+  margin-right: 30px;
+}
+.wi {
+  transform: translate3d(-4072px, 0px, 0px);
+  transition: all 0.25s ease 0s;
+  width: 7126px;
+}
+.hi {
+  height: 696.938px;
+}
+.banner-slider-area {
+  position: relative;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
+.owl-carousel {
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+.owl-carousel,
+.owl-carousel .owl-item {
+  position: relative;
+}
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+}
+.owl-height {
+  transition: height 0.5s ease-in-out;
+}
+.owl-carousel .owl-stage {
+  position: relative;
+  touch-action: manipulation;
+}
+.owl-carousel .owl-item {
+  min-height: 1px;
+  float: left;
+}
+.item-bg2 {
+  background-image: url(./component/asset/home-one-img2.jpg);
+}
+.banner-item {
+  position: relative;
+  z-index: 1;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-item::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #070b3b;
+  opacity: 0.7;
+}
+.styls {
+  height: 750px;
+  position: relative;
+  background-color: #070b3b;
+  background-image: linear-gradient(
+      29deg,
+      rgba(49, 53, 109, 0.753),
+      rgb(8, 7, 73, 0.712)
+    ),
+    url(./component/asset/home-one-img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.styls .capt {
+  position: absolute;
+  color: #f1f1f1;
+  text-align: start;
+  top: -500px;
+}
+.capt span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #0071dc;
+  padding: 10px 25px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+}
+.capt h1 {
+  margin-top: 25px;
+  font-size: 55px;
+  color: #ffffff;
+  font-weight: bold;
+  max-width: 780px;
+  margin-bottom: 20px;
+}
+.capt p {
+  font-size: 17px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: 400;
+  max-width: 660px;
+  margin-bottom: 35px;
+}
+.default-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffc221;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 1;
+}
+.default-btn::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  left: -36%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+.default-btn:hover {
+  background-color: #000000;
+  transition: 0.9s;
+}

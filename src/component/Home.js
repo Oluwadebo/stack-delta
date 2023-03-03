@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import download from './asset/download.png'
 import Footer from './Footer';
 import download1 from './asset/download.jpg'
+import homeoneimg1 from './asset/home-one-img1.jpg'
+import homeoneimg2 from './asset/home-one-img2.jpg'
+import homeoneimg3 from './asset/home-one-img3.jpg'
 
 const Home = () => {
     const scrollup = () => {
@@ -103,11 +106,120 @@ const Home = () => {
                         <button onClick={scrollup} className="fa fa-angles-up scr"></button>
                     </div>
                 </nav>
-                <div class="banner-slider-area">
+                <div class="banner-slider-area py-2">
+                    <div id="carouselExampleDark" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="100">
+                                <div className="styls">
+                                    <div class="carousel-caption">
+                                        <div className="capt">
+                                            <span>Only High Quality Services</span>
+                                            <h1>Excellent IT Services for Your Success</h1>
+                                            <p>
+                                                Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
+                                            </p>
+                                            <div class="banner-btn">
+                                                <Link
+                                                    to=""
+                                                    className='default-btn'
+                                                >
+                                                    Discover More <i class="fa fa-chevron-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src={homeoneimg2} class="d-block w-100" alt="..." />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src={homeoneimg3} class="d-block w-100" alt="..." />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="banner-slider owl-carousel owl-theme owl-loaded owl-drag">
-                        <div class="owl-stage-outer owl-height" style="height: 696.938px;">
-                            <div class="owl-stage" style="transform: translate3d(-4072px, 0px, 0px); transition: all 0.25s ease 0s; width: 7126px;">
-                                <div class="owl-item cloned cls" style="width: 988px; margin-right: 30px;">
+                        <div class="owl-stage-outer owl-height hi">
+                            <div class="owl-stage wi">
+                                <div class="owl-item cloned cls">
+                                    <div class="banner-item item-bg2">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="container">
+                                                    <div class="banner-item-content">
+                                                        <span>Only High Quality Services</span>
+                                                        <h1>We Provide Best IT Services for Your Need</h1>
+                                                        <p>
+                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
+                                                        </p>
+                                                        <div class="banner-btn">
+                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
+                                                                <i class="fa fa-angle-right"></i></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned cls">
+                                    <div class="banner-item item-bg3">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="container">
+                                                    <div class="banner-item-content">
+                                                        <span>Only High Quality Services</span>
+                                                        <h1>Digital IT Service With Excellent Quality</h1>
+                                                        <p>
+                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
+                                                        </p>
+                                                        <div class="banner-btn">
+                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
+                                                                <i class="bx bx-chevron-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cls">
+                                    <div class="banner-item item-bg1">
+                                        <div class="d-table">
+                                            <div class="d-table-cell">
+                                                <div class="container">
+                                                    <div class="banner-item-content">
+                                                        <span>Only High Quality Services</span>
+                                                        <h1>Excellent IT Services for Your Success</h1>
+                                                        <p>
+                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
+                                                        </p>
+                                                        <div class="banner-btn">
+                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
+                                                                <i class="bx bx-chevron-right"></i></a>
+                                                            {/* <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Get A Quote <i class='bx bx-chevron-right'></i></a> */}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item cls">
                                     <div class="banner-item item-bg2">
                                         <div class="d-table">
                                             <div class="d-table-cell">
@@ -127,7 +239,10 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div></div><div class="owl-item cloned" style="width: 988px; margin-right: 30px;"><div class="banner-item item-bg3">
+                                    </div>
+                                </div>
+                                <div class="owl-item active cls">
+                                    <div class="banner-item item-bg3">
                                         <div class="d-table">
                                             <div class="d-table-cell">
                                                 <div class="container">
@@ -145,7 +260,10 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div></div><div class="owl-item" style="width: 988px; margin-right: 30px;"><div class="banner-item item-bg1">
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned cls">
+                                    <div class="banner-item item-bg1">
                                         <div class="d-table">
                                             <div class="d-table-cell">
                                                 <div class="container">
@@ -164,7 +282,10 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div></div><div class="owl-item" style="width: 988px; margin-right: 30px;"><div class="banner-item item-bg2">
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned cls">
+                                    <div class="banner-item item-bg2">
                                         <div class="d-table">
                                             <div class="d-table-cell">
                                                 <div class="container">
@@ -183,63 +304,20 @@ const Home = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div></div><div class="owl-item active" style="width: 988px; margin-right: 30px;"><div class="banner-item item-bg3">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>Digital IT Service With Excellent Quality</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div></div><div class="owl-item cloned" style="width: 988px; margin-right: 30px;"><div class="banner-item item-bg1">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>Excellent IT Services for Your Success</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-                                                            {/* <a href="contact.html" class="default-btn btn-bg-one border-radius-50 ml-20">Get A Quote <i class='bx bx-chevron-right'></i></a> */}
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div></div><div class="owl-item cloned" style="width: 988px; margin-right: 30px;"><div class="banner-item item-bg2">
-                                        <div class="d-table">
-                                            <div class="d-table-cell">
-                                                <div class="container">
-                                                    <div class="banner-item-content">
-                                                        <span>Only High Quality Services</span>
-                                                        <h1>We Provide Best IT Services for Your Need</h1>
-                                                        <p>
-                                                            Ensuring your innovation plan is lined up with your business strategy to eliminate risks and total cost of ownership. We are situated to serve a wide range of staffing requirements of diverse business areas. We engage ourselves in your business to craft a roadmap to ensure your IT platform is advanced for your current and future necessities.
-                                                        </p>
-                                                        <div class="banner-btn">
-                                                            <a href="about.html" class="default-btn btn-bg-one border-radius-50">Discover More
-                                                                <i class="bx bx-chevron-right"></i></a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-nav disabled">
+                            <button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button>
+                            <button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button>
+                        </div>
+                        <div class="owl-dots">
+                            <button role="button" class="owl-dot"><span></span></button>
+                            <button role="button" class="owl-dot"><span></span></button>
+                            <button role="button" class="owl-dot active"><span></span></button>
+                        </div>
+                    </div>
                 </div>
                 <section className="clients-area py-5">
                     <div className="container py-5">
