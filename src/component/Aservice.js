@@ -19,48 +19,6 @@ const Aservice = () => {
             behavior: "smooth"
         })
     }
-
-    let slideIndex = [1, 1];
-    /* Class the members of each slideshow group with different CSS classes */
-    let slideId = ["mySlides1", "mySlides2"]
-    showSlides(1, 0);
-    showSlides(1, 1);
-
-    function plusSlides(n, no) {
-        showSlides(slideIndex[no] += n, no);
-        console.log(n);
-    }
-
-    function showSlides(n, no) {
-        let i;
-        let x = document.getElementsByClassName(slideId[no]);
-        if (n > x.length) { slideIndex[no] = 1 }
-        if (n < 1) { slideIndex[no] = x.length }
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-            x[slideIndex[no] - 1].style.display = "block";
-        }
-    }
-
-    // let slideIndex = 6;
-    // showSlides(slideIndex);
-
-    // function plusSlides(n) {
-    //     showSlides(slideIndex += n);
-    // }
-
-    // function showSlides(n) {
-    //     let i;
-    //     let slides = document.getElementsByClassName("mySlides");
-    //     if (n > slides.length) { slideIndex = 1 }
-    //     if (n < 1) { slideIndex = slides.length }
-    //     for (i = 0; i < slides.length; i++) {
-    //         slides[i].style.display = "none";
-    //         slides[slideIndex - 1].style.display = "block";
-    //         setTimeout(showSlides, 500)
-    //     }
-
-    // }
     return (
         <>
             <div className="">
@@ -306,39 +264,69 @@ const Aservice = () => {
                             <span className="sp-color2">Our Clients</span>
                             <h2>We are Trusted clients across the United States</h2>
                         </div>
-                        <div className="slideshow-container">
-                            <div className="mySlides">
-                                <div className="text">
-                                    <h3>Xavier</h3>
-                                    <p>“It’s my pleasure to work with Stack Delta. Even though the first opportunity they presented wasn’t the right fit for me, it did not stop them from finding me a position that suits my skill sets and qualifications. I was presented with an awesome opportunity. I appreciate their efforts in helping individuals like me find the right opportunity.”</p>
+                        <div id="carouselExampleInterval" className="carousel slide my-5" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgd" alt="..." />
+                                    <div className="carousel-caption see">
+                                        <h3>Xavier</h3>
+                                        <p>“It’s my pleasure to work with Stack Delta. Even though the first opportunity they presented wasn’t the right fit for me, it did not stop them from finding me a position that suits my skill sets and qualifications. I was presented with an awesome opportunity. I appreciate their efforts in helping individuals like me find the right opportunity.”</p>
+                                    </div>
+                                </div>
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgd" alt="..." />
+                                    <div className="carousel-caption see">
+                                        <h3> Paul</h3>
+                                        <p>
+                                            “The staff at Stack Delta is incredibly responsive, professional, and honest. They were highly focused on finding roles that fit my criteria and my experience. They consider your flexibility, compensation and your work ability. I recommend others who are seeking new opportunities to contact Stack Delta.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgds" alt="..." />
+                                    <div className="carousel-caption see">
+                                        <h3> Aman </h3>
+                                        <p>
+                                            “The team at Stack Delta has been amazing to work with. The team truly exceeds all expectations and provides qualified candidate profiles for our hiring needs. The type of candidates we receive from Stack Delta is remarkable - throughout the course of recent years we have had various promising workers for hire come through on impermanent bases who are currently a portion of our most grounded extremely durable increases to our staff. The staff is extremely watchful and brief with answering inquiries such as historical verifications, start dates, etc. The staff is proficient, productive, and dependable in offering extraordinary service.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgd" alt="..." />
+                                    <div className="carousel-caption see">
+                                        <h3> Arjun</h3>
+                                        <p>
+                                            “Stack Delta has been very helpful towards finding me a role which matched my experience, skills and guided me throughout the process. I felt very comfortable asking any questions I had, and they have been very positive and professional. I would recommend Stack Delta to anyone looking for new employment opportunities.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgde" alt="..." />
+                                    <div className="carousel-caption see">
+                                        <h3> Christina Cobb </h3>
+                                        <p>
+                                            “My involvement with working with Stack Delta has been exceptional. We are in consistent need of contractors for our clients. Some positions are temporary, and some are direct hire. Stack Delta submits resumes of professionals rapidly and efficiently. They give candidates who are proficient, talented, and meet the needs of various assignments. Stack Delta is proficient, productive, and dependable in offering remarkable candidates.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="carousel-item" data-bs-interval="1000">
+                                    <img src={download1} className="img-fluid d-block mx-auto imgde" alt="..." />
+                                    <div className="carousel-caption see">
+                                        <h3> Michelle Smith</h3>
+                                        <p>
+                                            “We had the pleasure of working with Stack Delta recently. They do an amazing job to give us qualified candidates for our temporary and permanent staffing needs. They take excellent thought of the abilities and capabilities we are searching for and assist us with filling our situations as soon possible. I wouldn't hold back to suggest Stack Delta for temporary and temporary to permanent employment needs.”
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="mySlides">
-                                <div className="text">
-                                    <h3> Paul</h3>
-                                    <p>“The staff at Stack Delta is incredibly responsive, professional, and honest. They were highly focused on finding roles that fit my criteria and my experience. They consider your flexibility, compensation and your work ability. I recommend others who are seeking new opportunities to contact Stack Delta.”</p>
-                                </div>
-                            </div>
-                            <div className="mySlides">
-                                <div className="text">
-                                    <h3> Arjun</h3>
-                                    <p>“Stack Delta has been very helpful towards finding me a role which matched my experience, skills and guided me throughout the process. I felt very comfortable asking any questions I had, and they have been very positive and professional. I would recommend Stack Delta to anyone looking for new employment opportunities.”</p>
-                                </div>
-                            </div>
-                            <div className="mySlides">
-                                <div className="text">
-                                    <h3> Christina Cobb </h3>
-                                    <p>“My involvement with working with Stack Delta has been exceptional. We are in consistent need of contractors for our clients. Some positions are temporary, and some are direct hire. Stack Delta submits resumes of professionals rapidly and efficiently. They give candidates who are proficient, talented, and meet the needs of various assignments. Stack Delta is proficient, productive, and dependable in offering remarkable candidates.”</p>
-                                </div>
-                            </div>
-                            <div className="mySlides">
-                                <div className="text">
-                                    <h3> Michelle Smith</h3>
-                                    <p>“We had the pleasure of working with Stack Delta recently. They do an amazing job to give us qualified candidates for our temporary and permanent staffing needs. They take excellent thought of the abilities and capabilities we are searching for and assist us with filling our situations as soon possible. I wouldn't hold back to suggest Stack Delta for temporary and temporary to permanent employment needs.”</p>
-                                </div>
-                            </div>
-                            <button className="prev" onClick={() => plusSlides(-1)}>&#10094;</button>
-                            <button className="next" onClick={() => plusSlides(1)}>&#10095;</button>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Previous</span>
+                            </button>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                     <div className="client-circle d-none d-md-inline">
@@ -466,23 +454,6 @@ const Aservice = () => {
                         </div>
                     </div>
                 </footer>
-                <div class="slideshow-container">
-
-                    <div class="mySlides1">
-                        <div class="numbertext">1 / 3</div>
-                        <img src="img1.jpg" />
-                        <div class="text">Caption Text</div>
-                    </div>
-
-                    <div class="mySlides2">
-                        <div class="numbertext">2 / 3</div>
-                        <img src="img2.jpg" />
-                        <div class="text">Caption Two</div>
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-
             </div>
         </>
     )
