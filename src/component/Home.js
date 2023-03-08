@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
 import Footer from './Footer';
-import download1 from './asset/download.jpg'
-import homeoneimg1 from './asset/home-one-img1.jpg'
-import homeoneimg2 from './asset/home-one-img2.jpg'
-import homeoneimg3 from './asset/home-one-img3.jpg'
+import image from './asset/image.jpg'
+import images from './asset/images.png'
+import download4 from './asset/download (4).png'
+import download1401952 from './asset/1401952.png'
+import download1997928 from './asset/1997928.png'
 
 const Home = () => {
     const scrollup = () => {
@@ -128,7 +129,7 @@ const Home = () => {
                                                     to="/About"
                                                     className='default-btn'
                                                 >
-                                                    Discover More <i className="fa fa-chevron-right"></i>
+                                                    Discover More
                                                 </Link>
                                             </div>
                                         </div>
@@ -149,7 +150,7 @@ const Home = () => {
                                                     to="/About"
                                                     className='default-btn'
                                                 >
-                                                    Discover More <i className="fa fa-chevron-right"></i>
+                                                    Discover More
                                                 </Link>
                                             </div>
                                         </div>
@@ -170,7 +171,7 @@ const Home = () => {
                                                     to="/About"
                                                     className='default-btn'
                                                 >
-                                                    Discover More <i className="fa fa-chevron-right"></i>
+                                                    Discover More
                                                 </Link>
                                             </div>
                                         </div>
@@ -180,6 +181,56 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <section class="work-process-area-two py-5">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <span class="sp-color2">Our Working Process</span>
+                        </div>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="work-process-card">
+                                            <img src={images} alt="images1" />
+                                            <h3>Discovery</h3>
+                                            <div class="number">01</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="work-process-card">
+                                            <img src={download4} alt="images1" />
+                                            <h3>Planning</h3>
+                                            <div class="number">02</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="work-process-card">
+                                            <img src={download1401952} alt="images1" />
+                                            <h3>Execute</h3>
+                                            <div class="number">03</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="work-process-card">
+                                            <img src={download1997928} alt="images1" />
+                                            <h3>Deliver</h3>
+                                            <div class="number">04</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div class="choose-img-two">
+                                    <img src={image} alt="About Images" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section className="clients-area py-5">
                     <div className="container py-5">
                         <div className="section-title text-center">

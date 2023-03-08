@@ -16,6 +16,7 @@ body {
 }
 .coles {
   background: #ffffff !important;
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
   color: #000000;
 }
 .collapse h3 {
@@ -523,4 +524,63 @@ img {
 }
 .carousel-indicators button:hover {
   background-color: #ffc221 !important;
+}
+.work-process-area-two {
+  position: relative;
+}
+.work-process-card {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+.work-process-card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 55px;
+  background-color: #0071dc;
+  border-radius: 0 0 0 270px;
+  opacity: 0.1;
+  transition: 0.7s;
+}
+.work-process-card img{
+  width: 85px;
+}
+.work-process-card h3 {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #252525;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.work-process-card .number {
+  font-size: 24px;
+  color: #0071dc;
+  font-weight: 600;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+.choose-img-two {
+  position: relative;
+  z-index: 1;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.choose-img-two::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 100%;
+  background-color: #070b3b;
 }
