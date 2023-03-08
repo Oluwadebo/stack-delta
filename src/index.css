@@ -33,7 +33,7 @@ body {
   border-bottom: 1px solid #0071dc;
   transition: 0.2s;
 }
-.active {
+.collapse .active {
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
@@ -217,52 +217,40 @@ img {
   color: #252525;
   margin-bottom: 0;
 }
-.imgd {
-  height: 180px;
-  width: 80%;
+.isd {
+  height: 220px;
+  margin: 10px 110px;
+  position: relative;
+  background-image: url(./component/asset/download.jpg);
+  background-size: cover;
+  background-position: center;
   border-radius: 5px;
-  transition: 0.9s;
 }
-.imgds {
-  height: 250px;
-  width: 80%;
-  border-radius: 5px;
-  transition: 0.9s;
-}
-.imgde {
-  height: 215px;
-  width: 80%;
-  border-radius: 5px;
-  transition: 0.9s;
-}
-@media only screen and (max-width: 780px) {
-  .imgd {
-    height: 330px;
-    width: 88%;
-  }
-  .imgds {
-    height: 510px;
-    width: 88%;
-  }
-  .imgde {
-    height: 405px;
-    width: 88%;
-  }
-}
-.see h3 {
-  text-align: left;
-  padding: 18px 0;
-  margin-bottom: 0;
+.isd h3 {
+  text-align: start;
+  margin-left: -70px;
   font-size: 22px;
   font-weight: 600;
   color: #252525;
 }
-.see p {
+.isd p {
   text-align: justify;
-  margin-bottom: 0;
+  margin-left: -70px;
+  margin-right: -70px;
   color: #444444;
   font-weight: 400;
   margin-top: 0;
+}
+@media only screen and (max-width: 780px) {
+  .isd {
+    height: 340px;
+    margin: 10px;
+  }
+  .isd h3,
+  .isd p {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
 }
 .circle {
   width: 40px;
@@ -523,7 +511,6 @@ img {
   transition: 0.9s;
 }
 .carousel-indicators button {
-  /* background-color: #fbfbfb3f !important; */
   margin: 7px 7px;
   width: 40px !important;
   height: 40px !important;
@@ -534,6 +521,6 @@ img {
 .carousel-indicators .active {
   background-color: #ffc221 !important;
 }
-.carousel-indicators button:hover{
+.carousel-indicators button:hover {
   background-color: #ffc221 !important;
 }
