@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import homefourimg from './asset/home-four-img.png'
 import download from './asset/download.png'
-import download1 from './asset/download.jpg'
 import servicesimg1 from './asset/services-img1.jpg'
 import servicesimg2 from './asset/services-img2.jpg'
 import servicesimg3 from './asset/services-img3.jpg'

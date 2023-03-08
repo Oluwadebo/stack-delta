@@ -10,6 +10,7 @@ body {
   color: #444444;
   font-weight: 400;
 }
+/* navbar stlye */
 .logo {
   height: 43px;
   margin: 5px 10px;
@@ -72,6 +73,7 @@ body {
 .ad .fa {
   font-size: 35px;
 }
+/* service page style */
 .banner-four-area {
   font-size: 24px;
   padding: 76px 0 50px;
@@ -549,7 +551,7 @@ img {
   opacity: 0.1;
   transition: 0.7s;
 }
-.work-process-card img{
+.work-process-card img {
   width: 85px;
 }
 .work-process-card h3 {
@@ -575,7 +577,7 @@ img {
   margin-bottom: 30px;
 }
 .choose-img-two::before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
   top: 0;
@@ -583,4 +585,100 @@ img {
   width: 90%;
   height: 100%;
   background-color: #070b3b;
+}
+.services-area-two {
+  background-color: #070b3b;
+  position: relative;
+  z-index: 1;
+}
+.services-area-two::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./component/asset/services-bg.png);
+}
+.section-title span {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  display: block;
+}
+.sp-color1 {
+  color: #ffc221;
+}
+.services-area-two .section-title h2 {
+  max-width: 500px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 0;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.services-area .section-title p {
+  color: #ffffff;
+  max-width: 760px;
+}
+.section-title p {
+  font-size: 18px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+}
+.services-item {
+  position: relative;
+  margin-bottom: 80px;
+  transition: 0.7s;
+}
+.services-item:hover .lin {
+  transition: 0.9s;
+  color: #ffc221;
+}
+.services-item:hover {
+  transform: translateY(-15px);
+}
+.services-item .content {
+  position: absolute;
+  width: 95%;
+  padding: 20px 15px 20px 92px;
+  left: 0;
+  right: 0;
+  width: 82%;
+  bottom: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.services-item .content img{
+  width: 65px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+.services-item .content span {
+  color: #0071dc;
+}
+.services-item .content h3 {
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #252525;
 }

@@ -7,7 +7,12 @@ import images from './asset/images.png'
 import download4 from './asset/download (4).png'
 import download1401952 from './asset/1401952.png'
 import download1997928 from './asset/1997928.png'
-
+import servicesimg1 from './asset/services-img1.jpg'
+import servicesimg2 from './asset/services-img2.jpg'
+import servicesimg3 from './asset/services-img3.jpg'
+import servicesimg4 from './asset/services-img4.jpg'
+import servicesimg5 from './asset/services-img5.jpg'
+import servicesimg6 from './asset/services-img6.jpg'
 const Home = () => {
     const scrollup = () => {
         window.scrollTo({
@@ -181,51 +186,134 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <section class="work-process-area-two py-5">
-                    <div class="container">
-                        <div class="section-title text-center">
-                            <span class="sp-color2">Our Working Process</span>
+                <section className="work-process-area-two py-5">
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <span className="sp-color2">Our Working Process</span>
                         </div>
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="work-process-card">
+                        <div className="row align-items-center justify-content-center">
+                            <div className="col-lg-4">
+                                <div className="row">
+                                    <div className="col-lg-6 col-sm-6">
+                                        <div className="work-process-card">
                                             <img src={images} alt="images1" />
                                             <h3>Discovery</h3>
-                                            <div class="number">01</div>
+                                            <div className="number">01</div>
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="work-process-card">
+                                    <div className="col-lg-6 col-sm-6">
+                                        <div className="work-process-card">
                                             <img src={download4} alt="images1" />
                                             <h3>Planning</h3>
-                                            <div class="number">02</div>
+                                            <div className="number">02</div>
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="work-process-card">
+                                    <div className="col-lg-6 col-sm-6">
+                                        <div className="work-process-card">
                                             <img src={download1401952} alt="images1" />
                                             <h3>Execute</h3>
-                                            <div class="number">03</div>
+                                            <div className="number">03</div>
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-6 col-sm-6">
-                                        <div class="work-process-card">
+                                    <div className="col-lg-6 col-sm-6">
+                                        <div className="work-process-card">
                                             <img src={download1997928} alt="images1" />
                                             <h3>Deliver</h3>
-                                            <div class="number">04</div>
+                                            <div className="number">04</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-lg-8">
-                                <div class="choose-img-two">
+                            <div className="col-lg-8">
+                                <div className="choose-img-two">
                                     <img src={image} alt="About Images" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="services-area-two py-5 services-area">
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <span className="sp-color1">Our Services</span>
+                            <h2>We Provide a Wide Variety of IT Services</h2>
+                            <center><p className="margin-auto">"We provide support, insight and solutions to companies throughout United States.By putting our clients at the core of all that we do, we are glad that we are as yet supporting our absolute business clients"</p></center>
+                        </div>
+                        <div className="row pt-5">
+                            <div className="col-lg-4 col-md-6">
+                                <div className="services-item">
+                                    <a>
+                                        <img src={servicesimg1} alt="Blog Images" />
+                                    </a>
+                                    <div className="content">
+                                        {/* <i className="flaticon-consultant"></i> */}
+                                        <img src={download4} alt="images1"/>
+                                        <span><a>Software Development</a></span>
+                                        <h3  className="lin"><a>Software Development</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6">
+                                <div className="services-item">
+                                    <a>
+                                        <img src={servicesimg2} alt="Blog Images" />
+                                    </a>
+                                    <div className="content">
+                                        <i className="flaticon-consulting"></i>
+                                        <span>Cloud Services</span>
+                                        <h3  className="lin"><a>Cloud Computing</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6">
+                                <div className="services-item">
+                                    <a>
+                                        <img src={servicesimg3} alt="Blog Images" />
+                                    </a>
+                                    <div className="content">
+                                        <i className="flaticon-web-development"></i>
+                                        <span><a>Mobile Development</a></span>
+                                        <h3  className="lin"><a>Mobile Development</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="services-item">
+                                    <a>
+                                        <img src={servicesimg4} alt="Blog Images" />
+                                    </a>
+                                    <div className="content">
+                                        <i className="flaticon-stats"></i>
+                                        <span><a>Staffing </a></span>
+                                        <h3  className="lin"><a>Professional Staffing solutions </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="services-item">
+                                    <a>
+                                        <img src={servicesimg5} alt="Blog Images" />
+                                    </a>
+                                    <div className="content">
+                                        <i className="flaticon-structure"></i>
+                                        <span><a>QA &amp; Testing</a></span>
+                                        <h3  className="lin"><a>QA &amp; Testing</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="services-item">
+                                    <a>
+                                        <img src={servicesimg6} alt="Blog Images" />
+                                    </a>
+                                    <div className="content">
+                                        <i className="flaticon-data-analytics"></i>
+                                        <span><a>IT Consultancy </a></span>
+                                        <h3  className="lin"><a>IT Consultancy </a></h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
