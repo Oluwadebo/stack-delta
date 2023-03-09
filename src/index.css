@@ -412,7 +412,7 @@ img {
 }
 /* home page style */
 .styls1 {
-  height: 820px;
+  height: 860px;
   position: relative;
   z-index: 1;
   background-image: url(./component/asset/home-one-img1.jpg);
@@ -421,7 +421,7 @@ img {
   background-size: cover;
 }
 .styls2 {
-  height: 820px;
+  height: 860px;
   position: relative;
   z-index: 1;
   background-image: url(./component/asset/home-one-img2.jpg);
@@ -430,7 +430,7 @@ img {
   background-size: cover;
 }
 .styls3 {
-  height: 820px;
+  height: 860px;
   position: relative;
   z-index: 1;
   background-image: url(./component/asset/home-one-img3.jpg);
