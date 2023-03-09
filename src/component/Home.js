@@ -4,15 +4,23 @@ import download from './asset/download.png'
 import Footer from './Footer';
 import image from './asset/image.jpg'
 import project from './asset/project.png'
+import project1 from './asset/project1.png'
 import effective from './asset/effective.png'
 import bullhorn from './asset/bullhorn.png'
 import chip from './asset/chip.png'
-import consultant from './asset/consultant.png'
+import consultant from './asset/consultant (1).png'
+import consultant1 from './asset/consultant1.png'
 import consulting from './asset/consulting.png'
 import stats from './asset/stats.png'
 import structure from './asset/structure.png'
+import structure1 from './asset/structure1.png'
+import android from './asset/android.png'
+import website from './asset/website.png'
+import effective1 from './asset/effective1.png'
 import dataanalytics from './asset/data-analytics.png'
+import dataanalytics1 from './asset/data-analytics1.png'
 import webdevelopment from './asset/web-development.png'
+import webdevelopment1 from './asset/web-development1.png'
 import callusimg1 from './asset/call-us-img1.png'
 import callshap2 from './asset/call-shap2.png'
 import callshap3 from './asset/call-shap3.png'
@@ -386,28 +394,25 @@ const Home = () => {
                         <div class="row pt-5">
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-web-development"></i>
+                                    <img src={webdevelopment1} alt="Images" />
                                     <h3>DevOps</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-consultant"></i>
+                                    <img src={consultant1} alt="Images" />
                                     <h3>Cloud Computing</h3>
                                 </div>
                             </div>
-
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-data-analytics"></i>
+                                    <img src={dataanalytics1} alt="Images" />
                                     <h3>Java Development</h3>
                                 </div>
                             </div>
-
-
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-structure"></i>
+                                    <img src={structure1} alt="Images" />
                                     <h3>.NET Development</h3>
                                 </div>
                             </div>
@@ -415,28 +420,25 @@ const Home = () => {
                         <div class="row pt-5">
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-android"></i>
+                                    <img src={android} alt="Images" />
                                     <h3>App Development</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-website"></i>
+                                    <img src={website} alt="Images" />
                                     <h3>Web Application</h3>
                                 </div>
                             </div>
-
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-effective"></i>
+                                    <img src={effective1} alt="Images" />
                                     <h3>QA Testing</h3>
                                 </div>
                             </div>
-
-
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
-                                    <i class="flaticon-project"></i>
+                                    <img src={project1} alt="Images" />
                                     <h3>UI/UX</h3>
                                 </div>
                             </div>

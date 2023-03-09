@@ -187,6 +187,9 @@ img {
   color: #252525;
   text-decoration: none;
 }
+.lin:hover{
+  color: #ffc221;
+}
 .clients-area {
   position: relative;
   z-index: 1;
@@ -453,7 +456,7 @@ img {
   position: absolute;
   color: #f1f1f1;
   text-align: left;
-  top: -550px;
+  top: -570px;
 }
 .capt span {
   font-size: 15px;
@@ -786,7 +789,10 @@ img {
   color: #ffffff;
   margin-bottom: 0;
   margin-top: 15px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
+}
+.technology-card img{
+  width: 60px;
 }
