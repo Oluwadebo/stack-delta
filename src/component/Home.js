@@ -13,6 +13,9 @@ import stats from './asset/stats.png'
 import structure from './asset/structure.png'
 import dataanalytics from './asset/data-analytics.png'
 import webdevelopment from './asset/web-development.png'
+import callusimg1 from './asset/call-us-img1.png'
+import callshap2 from './asset/call-shap2.png'
+import callshap3 from './asset/call-shap3.png'
 import servicesimg1 from './asset/services-img1.jpg'
 import servicesimg2 from './asset/services-img2.jpg'
 import servicesimg3 from './asset/services-img3.jpg'
@@ -51,7 +54,7 @@ const Home = () => {
                                     <h3>
                                         <Link
                                             to="/"
-                                            className='d-block d-md-inline py-2 py-md-0 active'
+                                            className='d-sm-inline d-md-inline py-2 py-md-0 active'
                                         >
                                             Home
                                         </Link>
@@ -203,7 +206,7 @@ const Home = () => {
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <center className="d-block d-md-none">
+                                            <center className="d-sm-inline d-md-none">
                                                 <img src={project} alt="images1" />
                                             </center>
                                             <div className="d-none d-md-block">
@@ -215,7 +218,7 @@ const Home = () => {
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                        <center className="d-block d-md-none">
+                                            <center className="d-sm-inline d-md-none">
                                                 <img src={chip} alt="images1" />
                                             </center>
                                             <div className="d-none d-md-block">
@@ -227,7 +230,7 @@ const Home = () => {
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <center className="d-block d-md-none">
+                                            <center className="d-sm-inline d-md-none">
                                                 <img src={effective} alt="images1" />
                                             </center>
                                             <div className="d-none d-md-block">
@@ -239,7 +242,7 @@ const Home = () => {
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <center className="d-block d-md-none">
+                                            <center className="d-sm-inline d-md-none">
                                                 <img src={bullhorn} alt="images1" />
                                             </center>
                                             <div className="d-none d-md-block">
@@ -343,6 +346,37 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <div className="call-us-area">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="call-contact">
+                                    <a href="tel:+1(732)-838-4153" className="call-btn">+1 (732)-838-4153</a>
+                                    <p>Get in touch with our specialists for a quick walk through of our services and know us better.</p>
+                                    <Link
+                                        to="/contact"
+                                        className='default-btn btn-bg-two border-radius-5'
+                                    >
+                                        Contact Us
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="call-us-img">
+                                    <img src={callusimg1} alt="Images" />
+                                    <div className="call-shape d-none d-md-block">
+                                        <div className="shape1">
+                                            <img src={callshap2} alt="Images" />
+                                        </div>
+                                        <div className="shape2 shape2-rs">
+                                            <img src={callshap3} alt="Images" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section className="clients-area py-5">
                     <div className="container py-5">
                         <div className="section-title text-center">

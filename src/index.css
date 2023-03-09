@@ -160,7 +160,7 @@ img {
   color: #ffc221;
 }
 .blog-card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-6px);
 }
 .blog-card .blog-img {
   position: relative;
@@ -500,21 +500,10 @@ img {
   font-size: 20px;
   z-index: 1;
 }
-.default-btn::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  height: 100%;
-  left: -36%;
-  top: 0;
-  transform: skew(50deg);
-  transition-duration: 0.6s;
-  transform-origin: top left;
-  width: 0;
-}
 .default-btn:hover {
-  background-color: #000000;
   transition: 0.9s;
+  background-color: #000000;
+  /* background-position-x: left; */
 }
 .carousel-indicators button {
   margin: 7px 7px;
@@ -654,7 +643,7 @@ img {
   color: #ffc221;
 }
 .services-item:hover {
-  transform: translateY(-15px);
+  transform: translateY(-6px);
 }
 .services-item .content {
   position: absolute;
@@ -687,4 +676,64 @@ img {
   line-height: 1.2;
   font-weight: 600;
   color: #252525;
+}
+.call-us-area {
+  background-color: #070b3b;
+  position: relative;
+  z-index: 1;
+}
+.call-us-area::before {
+  content: "";
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./component/asset/call-shap1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.call-contact {
+  padding: 50px 0;
+}
+.call-contact .call-btn {
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.call-contact p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.btn-bg-two {
+  background-color: #0071dc;
+}
+.border-radius-5 {
+  border-radius: 5px;
+}
+.call-us-img {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.call-shape .shape1 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.call-shape .shape2 {
+  position: absolute;
+  top: 30px;
+  right: -35px;
 }
