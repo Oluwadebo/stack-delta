@@ -412,7 +412,7 @@ img {
 }
 /* home page style */
 .styls1 {
-  height: 790px;
+  height: 800px;
   position: relative;
   z-index: 1;
   background-image: url(./component/asset/home-one-img1.jpg);
@@ -421,7 +421,7 @@ img {
   background-size: cover;
 }
 .styls2 {
-  height: 790px;
+  height: 800px;
   position: relative;
   z-index: 1;
   background-image: url(./component/asset/home-one-img2.jpg);
@@ -430,7 +430,7 @@ img {
   background-size: cover;
 }
 .styls3 {
-  height: 790px;
+  height: 800px;
   position: relative;
   z-index: 1;
   background-image: url(./component/asset/home-one-img3.jpg);
@@ -457,7 +457,7 @@ img {
   position: absolute;
   color: #f1f1f1;
   text-align: left;
-  top: -600px;
+  top: -610px;
 }
 .capt span {
   font-size: 15px;
