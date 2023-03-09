@@ -483,6 +483,9 @@ img {
   .capt p {
     font-size: 15px;
   }
+  .center {
+    text-align: center;
+  }
 }
 .default-btn {
   display: inline-block;
@@ -643,6 +646,9 @@ img {
   margin-bottom: 80px;
   transition: 0.7s;
 }
+.services-item img {
+  border-radius: 5px;
+}
 .services-item:hover .lin {
   transition: 0.9s;
   color: #ffc221;
@@ -665,7 +671,7 @@ img {
   border-radius: 5px;
   margin-bottom: 30px;
 }
-.services-item .content img{
+.services-item .content img {
   width: 65px;
   position: absolute;
   top: 17px;

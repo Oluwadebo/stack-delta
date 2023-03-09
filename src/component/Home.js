@@ -3,16 +3,23 @@ import { Link } from "react-router-dom";
 import download from './asset/download.png'
 import Footer from './Footer';
 import image from './asset/image.jpg'
-import images from './asset/images.png'
-import download4 from './asset/download (4).png'
-import download1401952 from './asset/1401952.png'
-import download1997928 from './asset/1997928.png'
+import project from './asset/project.png'
+import effective from './asset/effective.png'
+import bullhorn from './asset/bullhorn.png'
+import chip from './asset/chip.png'
+import consultant from './asset/consultant.png'
+import consulting from './asset/consulting.png'
+import stats from './asset/stats.png'
+import structure from './asset/structure.png'
+import dataanalytics from './asset/data-analytics.png'
+import webdevelopment from './asset/web-development.png'
 import servicesimg1 from './asset/services-img1.jpg'
 import servicesimg2 from './asset/services-img2.jpg'
 import servicesimg3 from './asset/services-img3.jpg'
 import servicesimg4 from './asset/services-img4.jpg'
 import servicesimg5 from './asset/services-img5.jpg'
 import servicesimg6 from './asset/services-img6.jpg'
+
 const Home = () => {
     const scrollup = () => {
         window.scrollTo({
@@ -196,29 +203,49 @@ const Home = () => {
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <img src={images} alt="images1" />
-                                            <h3>Discovery</h3>
+                                            <center className="d-block d-md-none">
+                                                <img src={project} alt="images1" />
+                                            </center>
+                                            <div className="d-none d-md-block">
+                                                <img src={project} alt="images1" />
+                                            </div>
+                                            <h3 className='center'>Discovery</h3>
                                             <div className="number">01</div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <img src={download4} alt="images1" />
-                                            <h3>Planning</h3>
+                                        <center className="d-block d-md-none">
+                                                <img src={chip} alt="images1" />
+                                            </center>
+                                            <div className="d-none d-md-block">
+                                                <img src={chip} alt="images1" />
+                                            </div>
+                                            <h3 className='center'>Planning</h3>
                                             <div className="number">02</div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <img src={download1401952} alt="images1" />
-                                            <h3>Execute</h3>
+                                            <center className="d-block d-md-none">
+                                                <img src={effective} alt="images1" />
+                                            </center>
+                                            <div className="d-none d-md-block">
+                                                <img src={effective} alt="images1" />
+                                            </div>
+                                            <h3 className='center'>Execute</h3>
                                             <div className="number">03</div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-sm-6">
                                         <div className="work-process-card">
-                                            <img src={download1997928} alt="images1" />
-                                            <h3>Deliver</h3>
+                                            <center className="d-block d-md-none">
+                                                <img src={bullhorn} alt="images1" />
+                                            </center>
+                                            <div className="d-none d-md-block">
+                                                <img src={bullhorn} alt="images1" />
+                                            </div>
+                                            <h3 className='center'>Deliver</h3>
                                             <div className="number">04</div>
                                         </div>
                                     </div>
@@ -246,36 +273,33 @@ const Home = () => {
                                         <img src={servicesimg1} alt="Blog Images" />
                                     </a>
                                     <div className="content">
-                                        {/* <i className="flaticon-consultant"></i> */}
-                                        <img src={download4} alt="images1"/>
+                                        <img src={consultant} alt="images1" />
                                         <span><a>Software Development</a></span>
-                                        <h3  className="lin"><a>Software Development</a></h3>
+                                        <h3 className="lin"><a>Software Development</a></h3>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="col-lg-4 col-md-6">
                                 <div className="services-item">
                                     <a>
                                         <img src={servicesimg2} alt="Blog Images" />
                                     </a>
                                     <div className="content">
-                                        <i className="flaticon-consulting"></i>
+                                        <img src={consulting} alt="images1" />
                                         <span>Cloud Services</span>
-                                        <h3  className="lin"><a>Cloud Computing</a></h3>
+                                        <h3 className="lin"><a>Cloud Computing</a></h3>
                                     </div>
                                 </div>
                             </div>
-
                             <div className="col-lg-4 col-md-6">
                                 <div className="services-item">
                                     <a>
                                         <img src={servicesimg3} alt="Blog Images" />
                                     </a>
                                     <div className="content">
-                                        <i className="flaticon-web-development"></i>
+                                        <img src={webdevelopment} alt="images1" />
                                         <span><a>Mobile Development</a></span>
-                                        <h3  className="lin"><a>Mobile Development</a></h3>
+                                        <h3 className="lin"><a>Mobile Development</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -285,9 +309,9 @@ const Home = () => {
                                         <img src={servicesimg4} alt="Blog Images" />
                                     </a>
                                     <div className="content">
-                                        <i className="flaticon-stats"></i>
+                                        <img src={stats} alt="images1" />
                                         <span><a>Staffing </a></span>
-                                        <h3  className="lin"><a>Professional Staffing solutions </a>
+                                        <h3 className="lin"><a>Professional Staffing solutions </a>
                                         </h3>
                                     </div>
                                 </div>
@@ -298,9 +322,9 @@ const Home = () => {
                                         <img src={servicesimg5} alt="Blog Images" />
                                     </a>
                                     <div className="content">
-                                        <i className="flaticon-structure"></i>
-                                        <span><a>QA &amp; Testing</a></span>
-                                        <h3  className="lin"><a>QA &amp; Testing</a></h3>
+                                        <img src={structure} alt="images1" />
+                                        <span><a>QA &amp; Testing</a></span> <br />
+                                        <h3 className="lin"><a>QA &amp; Testing</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -310,9 +334,9 @@ const Home = () => {
                                         <img src={servicesimg6} alt="Blog Images" />
                                     </a>
                                     <div className="content">
-                                        <i className="flaticon-data-analytics"></i>
+                                        <img src={dataanalytics} alt="images1" />
                                         <span><a>IT Consultancy </a></span>
-                                        <h3  className="lin"><a>IT Consultancy </a></h3>
+                                        <h3 className="lin"><a>IT Consultancy </a></h3>
                                     </div>
                                 </div>
                             </div>
