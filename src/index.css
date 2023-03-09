@@ -451,12 +451,13 @@ img {
   height: 100%;
   background-color: #070b3b;
   opacity: 0.8;
+  -webkit-tap-highlight-color: transparent;
 }
 .capt {
   position: absolute;
   color: #f1f1f1;
   text-align: left;
-  top: -570px;
+  top: -590px;
 }
 .capt span {
   font-size: 15px;
