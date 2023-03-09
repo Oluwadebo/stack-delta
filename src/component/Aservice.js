@@ -265,7 +265,7 @@ const Aservice = () => {
                         </div>
                         <div id="carouselExampleInterval" className="carousel slide my-5" data-bs-ride="carousel">
                             <div className="carousel-inner">
-                                <div className="carousel-item active" data-bs-interval="1000">
+                                <div className="carousel-item active" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'>Xavier</h3>
@@ -273,7 +273,7 @@ const Aservice = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Paul</h3>
@@ -283,7 +283,7 @@ const Aservice = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Arjun</h3>
@@ -293,7 +293,7 @@ const Aservice = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Christina Cobb</h3>
@@ -303,7 +303,7 @@ const Aservice = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Michelle Smith</h3>

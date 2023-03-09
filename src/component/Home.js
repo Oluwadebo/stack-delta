@@ -377,6 +377,72 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <section class="technology-area py-5">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <span class="sp-color1">Technology Index</span>
+                            <h2>We Deliver Our Best Solution With The Goal of Trusting</h2>
+                        </div>
+                        <div class="row pt-5">
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-web-development"></i>
+                                    <h3>DevOps</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-consultant"></i>
+                                    <h3>Cloud Computing</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-data-analytics"></i>
+                                    <h3>Java Development</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-structure"></i>
+                                    <h3>.NET Development</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-5">
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-android"></i>
+                                    <h3>App Development</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-website"></i>
+                                    <h3>Web Application</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-effective"></i>
+                                    <h3>QA Testing</h3>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-6">
+                                <div class="technology-card">
+                                    <i class="flaticon-project"></i>
+                                    <h3>UI/UX</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section className="clients-area py-5">
                     <div className="container py-5">
                         <div className="section-title text-center">
@@ -385,7 +451,7 @@ const Home = () => {
                         </div>
                         <div id="carouselExampleInterval" className="carousel slide my-5" data-bs-ride="carousel">
                             <div className="carousel-inner">
-                                <div className="carousel-item active" data-bs-interval="1000">
+                                <div className="carousel-item active" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'>Xavier</h3>
@@ -393,7 +459,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Paul</h3>
@@ -403,7 +469,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Arjun</h3>
@@ -413,7 +479,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Christina Cobb</h3>
@@ -423,7 +489,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="carousel-item" data-bs-interval="1000">
+                                <div className="carousel-item" data-bs-interval="2000">
                                     <div className="isd">
                                         <div className="carousel-caption">
                                             <h3 className='mb-3'> Michelle Smith</h3>
