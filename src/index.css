@@ -187,7 +187,7 @@ img {
   color: #252525;
   text-decoration: none;
 }
-.lin:hover{
+.lin:hover {
   color: #ffc221;
 }
 .clients-area {
@@ -494,7 +494,7 @@ img {
   .center {
     text-align: center;
   }
-  .call-contact{
+  .call-contact {
     text-align: center;
   }
 }
@@ -711,7 +711,7 @@ img {
 .call-contact {
   padding: 50px 0;
 }
-.call-contact a:hover{
+.call-contact a:hover {
   color: #ffc221;
 }
 .call-contact .call-btn {
@@ -797,7 +797,143 @@ img {
   font-weight: 500;
   line-height: 1.2;
 }
-.technology-card img{
+.technology-card img {
   width: 60px;
 }
 /* aboutUs style */
+.about-play {
+  position: relative;
+  border-radius: 30px;
+}
+.about-play img {
+  border-radius: 30px;
+}
+.about-play .about-play-content {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  max-width: 470px;
+  background-color: #25252538;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 70%;
+  padding: 100px 40px 70px 25px;
+}
+.about-play .about-play-content::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 30px;
+  width: 91.7%;
+  height: 90.1%;
+  background-color: #0071dc;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 70%;
+}
+.about-play-content span {
+  color: #ffffff;
+}
+.about-play-content h2 {
+  color: #ffffff;
+  font-size: 35px;
+  max-width: 300px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.about-play-content .play-on-area {
+  position: absolute;
+  z-index: 1;
+  bottom: 175px;
+  left: 200px;
+}
+.play-on-area .play-on {
+  width: 80px;
+  height: 80px;
+  color: #0071dc;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 51px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.about-play .about-play-content .play-on-area .play-on i {
+  padding-left: 10px;
+}
+.section-title h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 0;
+  line-height: 1.2;
+  color: #252525;
+  margin-bottom: 0;
+}
+.section-title p {
+  text-align: justify;
+  font-size: 18px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  max-width: 530px;
+  color: #444444;
+  font-weight: 400;
+  margin-top: 0;
+}
+.about-content .about-list {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+.about-content .about-list li {
+  display: block;
+  color: #252525;
+  margin-bottom: 10px;
+  font-weight: 500;
+  padding-left: 35px;
+  position: relative;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.about-content .about-list li i {
+  font-size: 26px;
+  color: #0071dc;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+.about-list li:hover {
+  color: #0071dc;
+}
+.about-list li i:hover {
+  color: #ffc221;
+}
+@media only screen and (max-width: 767px) {
+  .about-play .about-play-content {
+    margin-top: 30px;
+    position: inherit;
+    background-color: #0071dc;
+    border-radius: 10px;
+    padding: 40px 30px 60px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .play-content h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+  }
+  .about-play .about-play-content .play-on-area {
+    position: inherit;
+    top: 15px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+}

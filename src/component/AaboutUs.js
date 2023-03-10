@@ -141,13 +141,13 @@ const AaboutUs = () => {
                                         <span>Watch Our Intro Video</span>
                                         <h2>Perfect Solution for IT Services!</h2>
                                         <div class="play-on-area">
-                                            <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
+                                            <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="fa fa-play"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="about-content mx-5">
+                                <div class="about-content mx-2">
                                     <div class="section-title">
                                         <h2>Right Partner for Software Innovation</h2>
                                         <p>
@@ -157,20 +157,18 @@ const AaboutUs = () => {
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <ul class="about-list text-start">
-                                                <li><i class="bx bxs-check-circle"></i>Strong expertise </li>
-                                                <li><i class="bx bxs-check-circle"></i>Committed to Quality</li>
-                                                <li><i class="bx bxs-check-circle"></i>Cooperative</li>
-                                                <li><i class="bx bxs-check-circle"></i>Supportive</li>
-
+                                                <li><i class="fa fa-check-circle"></i>Strong expertise </li>
+                                                <li><i class="fa fa-check-circle"></i>Committed to Quality</li>
+                                                <li><i class="fa fa-check-circle"></i>Cooperative</li>
+                                                <li><i class="fa fa-check-circle"></i>Supportive</li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6 col-md-6">
                                             <ul class="about-list about-list-2 text-start">
-                                                <li><i class="bx bxs-check-circle"></i>Assuring</li>
-                                                <li><i class="bx bxs-check-circle"></i>Adaptable</li>
-                                                <li><i class="bx bxs-check-circle"></i>Reliable</li>
-                                                <li><i class="bx bxs-check-circle"></i>Exceptionally Responsive Simple to Work With </li>
-
+                                                <li><i class="fa fa-check-circle"></i>Assuring</li>
+                                                <li><i class="fa fa-check-circle"></i>Adaptable</li>
+                                                <li><i class="fa fa-check-circle"></i>Reliable</li>
+                                                <li><i class="fa fa-check-circle"></i>Exceptionally Responsive Simple to Work With </li>
                                             </ul>
                                         </div>
                                     </div>
