@@ -5,7 +5,8 @@ import Footer from './Footer';
 import homefourimg from './asset/home-four-img.png'
 import aboutimg1 from './asset/about-img1.jpg'
 import chooseimg from './asset/choose-img.jpg'
-import structure1 from './asset/structure1.png'
+import practice from './asset/practice.png'
+import help from './asset/help.png'
 
 const AaboutUs = () => {
     const scrollup = () => {
@@ -186,7 +187,7 @@ const AaboutUs = () => {
                             <div className="col-lg-6">
                                 <div className="choose-content mx-4">
                                     <div className="section-title">
-                                        <span className="sp-color1">Why Choose Us <i class="mdi mdi-heart"></i></span>
+                                        <span className="sp-color1">Why Choose Us</span>
                                         <h2>We Provide Truly Prominent It Solutions.</h2>
                                         <p>
                                             We are an IT Consulting and Software development company providing turn-key IT solutions to various clients. Our main areas of focus are IT training and consulting services to various clients.
@@ -199,8 +200,7 @@ const AaboutUs = () => {
                                         <div className="col-lg-6 col-6">
                                             <div className="choose-content-card">
                                                 <div className="content d-md-flex d-inline">
-                                                    <i className="flaticon-practice"></i>
-                                                    <img src={structure1} alt="Images" />
+                                                    <img src={practice} alt="Images" />
                                                     <h3>Experience</h3>
                                                 </div>
                                             </div>
@@ -208,8 +208,7 @@ const AaboutUs = () => {
                                         <div className="col-lg-6 col-6">
                                             <div className="choose-content-card">
                                                 <div className="content d-md-flex d-inline">
-                                                    <img src={structure1} alt="Images" />
-                                                    <i className="flaticon-help"></i>
+                                                    <img src={help} alt="Images" />
                                                     <h3>Quick Support</h3>
                                                 </div>
                                             </div>
