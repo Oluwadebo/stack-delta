@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import download from './asset/download.png'
 import Footer from './Footer';
 import homefourimg from './asset/home-four-img.png'
+import aboutimg1 from './asset/about-img1.jpg'
 
 const AaboutUs = () => {
     const scrollup = () => {
@@ -125,6 +126,55 @@ const AaboutUs = () => {
                             <div className="col-12 col-md-6 pe-0">
                                 <div className="banner-four-img mx-md-0 mx-3 mt-md-0 mt-3">
                                     <img src={homefourimg} alt="Images" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-area py-5">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="about-play">
+                                    <img src={aboutimg1} alt="About Images" />
+                                    <div class="about-play-content">
+                                        <span>Watch Our Intro Video</span>
+                                        <h2>Perfect Solution for IT Services!</h2>
+                                        <div class="play-on-area">
+                                            <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="bx bx-play"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="about-content mx-5">
+                                    <div class="section-title">
+                                        <h2>Right Partner for Software Innovation</h2>
+                                        <p>
+                                            We provide support, insight and solutions to companies throughout United States. By putting our clients at the core of all that we do, we are glad that we are as yet supporting our absolute business client.
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <ul class="about-list text-start">
+                                                <li><i class="bx bxs-check-circle"></i>Strong expertise </li>
+                                                <li><i class="bx bxs-check-circle"></i>Committed to Quality</li>
+                                                <li><i class="bx bxs-check-circle"></i>Cooperative</li>
+                                                <li><i class="bx bxs-check-circle"></i>Supportive</li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <ul class="about-list about-list-2 text-start">
+                                                <li><i class="bx bxs-check-circle"></i>Assuring</li>
+                                                <li><i class="bx bxs-check-circle"></i>Adaptable</li>
+                                                <li><i class="bx bxs-check-circle"></i>Reliable</li>
+                                                <li><i class="bx bxs-check-circle"></i>Exceptionally Responsive Simple to Work With </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

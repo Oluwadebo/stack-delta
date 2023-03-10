@@ -711,6 +711,9 @@ img {
 .call-contact {
   padding: 50px 0;
 }
+.call-contact a:hover{
+  color: #ffc221;
+}
 .call-contact .call-btn {
   font-size: 35px;
   color: #ffffff;
@@ -797,3 +800,4 @@ img {
 .technology-card img{
   width: 60px;
 }
+/* aboutUs style */
