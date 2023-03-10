@@ -7,6 +7,7 @@ import aboutimg1 from './asset/about-img1.jpg'
 import chooseimg from './asset/choose-img.jpg'
 import practice from './asset/practice.png'
 import help from './asset/help.png'
+import Vision from './asset/Vision.jpeg'
 
 const AaboutUs = () => {
     const scrollup = () => {
@@ -219,6 +220,36 @@ const AaboutUs = () => {
                             <div className="col-lg-6">
                                 <div className="choose-img">
                                     <img src={chooseimg} alt="Images" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-area py-5">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="about-content mx-2">
+                                        <div class="section-title inner-title text-cente ">
+                                            <h1>OUR VISION</h1>
+                                            <h5>  Exceeding client expectations </h5>
+                                            <h5>
+                                                <p>  To extend the Minute Men family by surpassing our clients' requirements through responsibility, morals, and respectability while giving a superior future to our partners, workers, and their families.
+                                                </p>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div><br />
+                                <div class="row">
+                                    <div class="about-img">
+                                        <img src={Vision} alt="About Images" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="about-img">
+                                    <img src={aboutimg1} alt="About Images" />
                                 </div>
                             </div>
                         </div>
