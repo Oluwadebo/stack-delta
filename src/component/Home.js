@@ -69,7 +69,7 @@ const Home = () => {
                                     </h3>
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/aboutUs"
                                             className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             About Us
@@ -149,7 +149,7 @@ const Home = () => {
                                             </p>
                                             <div className="banner-btn">
                                                 <Link
-                                                    to="/About"
+                                                    to="/aboutUs"
                                                     className='default-btn'
                                                 >
                                                     Discover More
@@ -170,7 +170,7 @@ const Home = () => {
                                             </p>
                                             <div className="banner-btn">
                                                 <Link
-                                                    to="/About"
+                                                    to="/aboutUs"
                                                     className='default-btn'
                                                 >
                                                     Discover More
@@ -191,7 +191,7 @@ const Home = () => {
                                             </p>
                                             <div className="banner-btn">
                                                 <Link
-                                                    to="/About"
+                                                    to="/aboutUs"
                                                     className='default-btn'
                                                 >
                                                     Discover More
