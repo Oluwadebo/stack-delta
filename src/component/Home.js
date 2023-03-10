@@ -395,25 +395,25 @@ const Home = () => {
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={webdevelopment1} alt="Images" />
-                                    <h3>DevOps</h3>
+                                    <h3 className="text-center">DevOps</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={consultant1} alt="Images" />
-                                    <h3>Cloud Computing</h3>
+                                    <h3 className="text-center">Cloud Computing</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={dataanalytics1} alt="Images" />
-                                    <h3>Java Development</h3>
+                                    <h3 className="text-center">Java Development</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={structure1} alt="Images" />
-                                    <h3>.NET Development</h3>
+                                    <h3 className="text-center">.NET Development</h3>
                                 </div>
                             </div>
                         </div>
@@ -421,25 +421,25 @@ const Home = () => {
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={android} alt="Images" />
-                                    <h3>App Development</h3>
+                                    <h3 className="text-center">App Development</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={website} alt="Images" />
-                                    <h3>Web Application</h3>
+                                    <h3 className="text-center">Web Application</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={effective1} alt="Images" />
-                                    <h3>QA Testing</h3>
+                                    <h3 className="text-center">QA Testing</h3>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-6">
                                 <div class="technology-card">
                                     <img src={project1} alt="Images" />
-                                    <h3>UI/UX</h3>
+                                    <h3 className="text-center">UI/UX</h3>
                                 </div>
                             </div>
                         </div>
