@@ -4,6 +4,8 @@ import download from './asset/download.png'
 import Footer from './Footer';
 import homefourimg from './asset/home-four-img.png'
 import aboutimg1 from './asset/about-img1.jpg'
+import chooseimg from './asset/choose-img.jpg'
+import structure1 from './asset/structure1.png'
 
 const AaboutUs = () => {
     const scrollup = () => {
@@ -131,48 +133,93 @@ const AaboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div class="about-area py-5">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="about-play">
+                <div className="about-area py-5">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="about-play">
                                     <img src={aboutimg1} alt="About Images" />
-                                    <div class="about-play-content">
+                                    <div className="about-play-content">
                                         <span>Watch Our Intro Video</span>
                                         <h2>Perfect Solution for IT Services!</h2>
-                                        <div class="play-on-area">
-                                            <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i class="fa fa-play"></i></a>
+                                        <div className="play-on-area">
+                                            <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" className="play-on popup-btn"><i className="fa fa-play"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="about-content mx-2">
-                                    <div class="section-title">
+                            <div className="col-lg-6">
+                                <div className="about-content mx-2">
+                                    <div className="section-title">
                                         <h2>Right Partner for Software Innovation</h2>
                                         <p>
                                             We provide support, insight and solutions to companies throughout United States. By putting our clients at the core of all that we do, we are glad that we are as yet supporting our absolute business client.
                                         </p>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <ul class="about-list text-start">
-                                                <li><i class="fa fa-check-circle"></i>Strong expertise </li>
-                                                <li><i class="fa fa-check-circle"></i>Committed to Quality</li>
-                                                <li><i class="fa fa-check-circle"></i>Cooperative</li>
-                                                <li><i class="fa fa-check-circle"></i>Supportive</li>
+                                    <div className="row">
+                                        <div className="col-lg-6 col-md-6">
+                                            <ul className="about-list text-start">
+                                                <li><i className="fa fa-check-circle"></i>Strong expertise </li>
+                                                <li><i className="fa fa-check-circle"></i>Committed to Quality</li>
+                                                <li><i className="fa fa-check-circle"></i>Cooperative</li>
+                                                <li><i className="fa fa-check-circle"></i>Supportive</li>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <ul class="about-list about-list-2 text-start">
-                                                <li><i class="fa fa-check-circle"></i>Assuring</li>
-                                                <li><i class="fa fa-check-circle"></i>Adaptable</li>
-                                                <li><i class="fa fa-check-circle"></i>Reliable</li>
-                                                <li><i class="fa fa-check-circle"></i>Exceptionally Responsive Simple to Work With </li>
+                                        <div className="col-lg-6 col-md-6">
+                                            <ul className="about-list about-list-2 text-start">
+                                                <li><i className="fa fa-check-circle"></i>Assuring</li>
+                                                <li><i className="fa fa-check-circle"></i>Adaptable</li>
+                                                <li><i className="fa fa-check-circle"></i>Reliable</li>
+                                                <li><i className="fa fa-check-circle"></i>Exceptionally Responsive Simple to Work With </li>
                                             </ul>
                                         </div>
                                     </div>
 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="choose-area py-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="choose-content mx-4">
+                                    <div className="section-title">
+                                        <span className="sp-color1">Why Choose Us <i class="mdi mdi-heart"></i></span>
+                                        <h2>We Provide Truly Prominent It Solutions.</h2>
+                                        <p>
+                                            We are an IT Consulting and Software development company providing turn-key IT solutions to various clients. Our main areas of focus are IT training and consulting services to various clients.
+                                        </p>
+                                        <p>
+                                            we create opportunities for people to reach their potential. This includes our clients, candidates, and employees. Our company values of passion, determination, work as a team, enjoying what we do and making a difference are as evident now as they have ever been and are an integral part of our business.
+                                        </p>
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-lg-6 col-6">
+                                            <div className="choose-content-card">
+                                                <div className="content d-md-flex d-inline">
+                                                    <i className="flaticon-practice"></i>
+                                                    <img src={structure1} alt="Images" />
+                                                    <h3>Experience</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-6">
+                                            <div className="choose-content-card">
+                                                <div className="content d-md-flex d-inline">
+                                                    <img src={structure1} alt="Images" />
+                                                    <i className="flaticon-help"></i>
+                                                    <h3>Quick Support</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="choose-img">
+                                    <img src={chooseimg} alt="Images" />
                                 </div>
                             </div>
                         </div>
