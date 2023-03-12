@@ -8,6 +8,12 @@ import chooseimg from './asset/choose-img.jpg'
 import practice from './asset/practice.png'
 import help from './asset/help.png'
 import Vision from './asset/Vision.jpeg'
+import cybersecurity from './asset/cyber-security.png'
+import computer from './asset/computer.png'
+import effective from './asset/effective (1).png'
+import consultant from './asset/consultant (2).png'
+import consulting from './asset/2637253.png'
+import implement from './asset/implement.png'
 
 const AaboutUs = () => {
     const scrollup = () => {
@@ -225,13 +231,13 @@ const AaboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div class="about-area py-5">
-                    <div class="container">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-lg-6">
-                                <div class="row">
-                                    <div class="about-content mx-2">
-                                        <div class="section-title inner-title text-cente ">
+                <div className="about-area py-5">
+                    <div className="container">
+                        <div className="row align-items-center justify-content-center">
+                            <div className="col-lg-6">
+                                <div className="row">
+                                    <div className="about-content mx-2">
+                                        <div className="section-title inner-title text-cente ">
                                             <h1>OUR VISION</h1>
                                             <h5>  Exceeding client expectations </h5>
                                             <h5>
@@ -241,15 +247,86 @@ const AaboutUs = () => {
                                         </div>
                                     </div>
                                 </div><br />
-                                <div class="row">
-                                    <div class="about-img">
+                                <div className="row">
+                                    <div className="about-img">
                                         <img src={Vision} alt="About Images" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="about-img">
+                            <div className="col-lg-6">
+                                <div className="about-img">
                                     <img src={aboutimg1} alt="About Images" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="security-area py-5">
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <span className="sp-color2">IT Security &amp; Computing</span>
+                            <h2>Searching for a Solution! We Provide Truly Prominent IT Solutions</h2>
+                        </div>
+                        <div className="row pt-5">
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="security-card">
+                                    <i>
+                                        <center>
+                                            <img src={cybersecurity} alt="About Images" />
+                                        </center>
+                                    </i>
+                                    <h3><a>Business Security</a></h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="security-card">
+                                    <i>
+                                        <center>
+                                            <img src={computer} alt="About Images" />
+                                        </center>
+                                    </i>
+                                    <h3><a>Manage IT Service</a></h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="security-card">
+                                    <i>
+                                        <center>
+                                            <img src={effective} alt="About Images" />
+                                        </center>
+                                    </i>
+                                    <h3><a>Product Analysis</a></h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="security-card">
+                                    <i>
+                                        <center>
+                                            <img src={implement} alt="About Images" />
+                                        </center>
+                                    </i>
+                                    <h3><a>Analytic Solution</a></h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="security-card">
+                                    <i>
+                                        <center>
+                                            <img src={consulting} alt="About Images" />
+                                        </center>
+                                    </i>
+                                    <h3><a>Finest Quality</a></h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="security-card">
+                                    {/* <i className="flaticon-consultant"></i> */}
+                                    <i>
+                                        <center>
+                                            <img src={consultant} alt="About Images" />
+                                        </center>
+                                    </i>
+                                    <h3><a>Risk Management</a></h3>
                                 </div>
                             </div>
                         </div>
