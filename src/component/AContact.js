@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
+import Contactus from './asset/ContactUs.jpg'
+import Footer from './Footer';
 
 const AContact = () => {
     const scrollup = () => {
@@ -101,6 +103,34 @@ const AContact = () => {
                         <button onClick={scrollup} className="fa fa-angles-up scr"></button>
                     </div>
                 </nav>
+                <div className="banner-four-area">
+                    <div className="container-fluid container">
+                        <div className="row align-items-center">
+                            <div className="col-12 col-md-6 sty my-md-0 my-5">
+                                <div className="banner-four-content text-white">
+                                    <h1>Contact Us</h1>
+                                    <ul>
+                                        <li>
+                                            <Link to="/" className="sig">
+                                                Home
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <i className="fa fa-angles-right"></i>
+                                        </li>
+                                        <li>Contact Us</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-6 pe-0">
+                                <div className="banner-four-img mx-md-0 mx-3 mt-md-5 mt-3">
+                                    <img src={Contactus} alt="Images" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <Footer/>
             </div>
         </>
     )
