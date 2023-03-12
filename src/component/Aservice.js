@@ -73,7 +73,7 @@ const Aservice = () => {
                                     </h3>
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/contact"
                                             className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             Contact
@@ -118,7 +118,7 @@ const Aservice = () => {
                                     <h1>Services</h1>
                                     <ul>
                                         <li>
-                                            <Link to="" className="sig">
+                                            <Link to="/" className="sig">
                                                 Home
                                             </Link>
                                         </li>

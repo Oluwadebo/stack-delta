@@ -41,6 +41,7 @@ body {
   font-weight: bold;
   color: #0071dc;
   border-bottom: 1px solid #0071dc;
+  width: 80px;
   cursor: pointer;
 }
 .stye {

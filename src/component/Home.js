@@ -62,7 +62,7 @@ const Home = () => {
                                     <h3>
                                         <Link
                                             to="/"
-                                            className='d-sm-inline d-md-inline py-2 py-md-0 active'
+                                            className='d-block d-md-inline py-2 py-md-0 active'
                                         >
                                             Home
                                         </Link>
@@ -93,7 +93,7 @@ const Home = () => {
                                     </h3>
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/contact"
                                             className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             Contact

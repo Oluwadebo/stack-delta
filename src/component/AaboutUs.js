@@ -46,7 +46,7 @@ const AaboutUs = () => {
                                     <h3>
                                         <Link
                                             to="/"
-                                            className='cart stye d-sm-inline d-md-inline py-2 py-md-0'
+                                            className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             Home
                                         </Link>
@@ -77,7 +77,7 @@ const AaboutUs = () => {
                                     </h3>
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/contact"
                                             className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             Contact
@@ -122,7 +122,7 @@ const AaboutUs = () => {
                                     <h1>About Us </h1>
                                     <ul>
                                         <li>
-                                            <Link to="" className="sig">
+                                            <Link to="/" className="sig">
                                                 Home
                                             </Link>
                                         </li>
