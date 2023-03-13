@@ -5,15 +5,17 @@ import Aservice from "./component/Aservice";
 import Home from "./component/Home";
 import AaboutUs from "./component/AaboutUs";
 import AContact from "./component/AContact";
+import Careeres from "./component/Careeres";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aboutUs" element={<AaboutUs/>} />
+        <Route path="/aboutUs" element={<AaboutUs />} />
         <Route path="/services" element={<Aservice />} />
-        <Route path="/contact" element={<AContact/>} />
+        <Route path="/careers" element={<Careeres />} />
+        <Route path="/contact" element={<AContact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

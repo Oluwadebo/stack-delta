@@ -85,7 +85,7 @@ const Home = () => {
                                     </h3>
                                     <h3>
                                         <Link
-                                            to=""
+                                            to="/careers"
                                             className='cart stye d-block d-md-inline py-2 py-md-0'
                                         >
                                             Careers

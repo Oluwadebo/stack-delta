@@ -511,11 +511,12 @@ img {
   text-decoration: none;
   font-size: 20px;
   z-index: 1;
+  transition: background-color 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .default-btn:hover {
-  transition: 0.9s;
   background-color: #000000;
-  /* background-position-x: left; */
+  transition:  background-color 1s cubic-bezier(.17,.67,.83,.67); 
+  background-image: linear-gradient(to top right, #000000);
 }
 .carousel-indicators button {
   margin: 7px 7px;
@@ -1199,5 +1200,4 @@ ul li .content span {
 .contact-form .default-btn {
   border: 0;
   outline: none;
-  
 }
