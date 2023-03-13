@@ -1085,3 +1085,119 @@ title h2 {
   color: #0071dc;
   transition: 0.9s;
 }
+/* contact page style */
+.contact-info {
+  margin-bottom: 30px;
+  background-color: #070b3b;
+  padding: 52px 35px 22px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+}
+.contact-info::before {
+  content: "";
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./component/asset/call-shap1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact-info span {
+  color: #ffc221;
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-info h2 {
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.contact-info p {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.contact-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact-info ul li {
+  display: block;
+  margin-bottom: 30px;
+  padding-left: 60px;
+  position: relative;
+}
+ul li .content i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #0071dc;
+  border-radius: 50px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 10px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ul li .content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  display: block;
+  font-weight: 600;
+}
+ul li .content a {
+  color: #ffffff;
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+ul li .content span {
+  color: #ffffff;
+  font-weight: 400;
+  display: block;
+  font-size: 15px;
+}
+.contact-form {
+  max-width: 800px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group label {
+  color: #252525;
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.form-group label span {
+  color: #ff0303;
+}
+.fstyle {
+  background-color: #ffffff;
+  border: 1px solid #0071dc;
+  color: #252525;
+  border-radius: 0;
+}
+.contact-form .default-btn {
+  border: 0;
+  outline: none;
+  
+}
