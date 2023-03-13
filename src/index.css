@@ -11,6 +11,9 @@ body {
   font-weight: 400;
 }
 /* navbar stlye */
+.navbar-toggler{
+  border: 0;
+}
 .logo {
   height: 43px;
   margin: 5px 10px;
@@ -1200,4 +1203,39 @@ ul li .content span {
 .contact-form .default-btn {
   border: 0;
   outline: none;
+}
+/* careers page style */
+.talk-area {
+  background-image: url(./component/asset/talk-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.talk-area::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #070b3b;
+  opacity: 0.8;
+}
+.talk-content .section-title {
+  margin-bottom: 30px;
+}
+.talk-content .section-title h1 {
+  font-size: 70px;
+  color: #ffffff;
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  margin-bottom: 0;
+  text-align: justify;
+  font-weight: 600;
 }

@@ -102,7 +102,18 @@ const Careeres = () => {
                         <button onClick={scrollup} className="fa fa-angles-up scr"></button>
                     </div>
                 </nav>
-                <Footer/>
+                <div class="talk-area py-5">
+                    <div class="container py-md-5 py-0">
+                        <div class="talk-content text-center my-md-5 mt-5">
+                            <div class="section-title text-center">
+                                <span class="sp-color1 section-title1 d-none d-md-inline">Career</span>
+                                <h1>WE'RE HIRING..</h1>
+                            </div>
+                            <a href="#individualscreen" class="default-btn btn-bg-two border-radius-5">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <Footer />
             </div>
         </>
     )
