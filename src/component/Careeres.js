@@ -26,7 +26,6 @@ const Careeres = () => {
             setfile(reader.result);
         }
     }
-    // console.log(file);
     const formik = useFormik({
         initialValues: {
             name: "",
@@ -287,7 +286,7 @@ const Careeres = () => {
                                                             : "form-control fstyle"
                                                     }
                                                         onChange={formik.handleChange}
-                                                        onBlur={formik.handleBlur} cols="30" rows="4" placeholder="Your Message"></textarea>
+                                                        onBlur={formik.handleBlur} cols="30" rows="2" placeholder="Your Message"></textarea>
                                                     {formik.touched.Notes && (
                                                         <div style={{ color: "red" }} className="my-2">
                                                             {formik.errors.Notes}
