@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
+import clientuserimg1 from './asset/client-user-img1.png'
 import Footer from './Footer';
 
 const Careeres = () => {
@@ -102,14 +103,38 @@ const Careeres = () => {
                         <button onClick={scrollup} className="fa fa-angles-up scr"></button>
                     </div>
                 </nav>
-                <div class="talk-area py-5">
-                    <div class="container py-md-5 py-0">
-                        <div class="talk-content text-center my-md-5 mt-5">
-                            <div class="section-title text-center">
-                                <span class="sp-color1 section-title1 d-none d-md-inline">Career</span>
+                <div className="talk-area py-5">
+                    <div className="container py-md-5 py-0">
+                        <div className="talk-content text-center my-md-5 mt-5">
+                            <div className="section-title text-center">
+                                <span className="sp-color1 section-title1 d-none d-md-inline">Career</span>
                                 <h1>WE'RE HIRING..</h1>
                             </div>
-                            <a href="#individualscreen" class="default-btn btn-bg-two border-radius-5">Apply Now</a>
+                            <a href="#individualscreen" className="default-btn btn-bg-two border-radius-5">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="about-area about-bg2 py-5">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="clients-slider-img">
+                                    <img src={clientuserimg1} alt="Images"/>
+                                    <div className="clients-slider-circle"></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="about-content-3 mx-2">
+                                    <div className="section-title">
+                                        <span className="sp-color2">We are Hiring</span>
+                                        <h2>Stack Delta is a consulting and technology services company specializing in industry-specific solutions, strategic outsourcing, and integration services.</h2>
+                                        <p>Stack Delta provides range of contractual/non-contractual consulting jobs from its respective clients in different domains and industries. We provide different nature of consulting jobs/hires depends on the client's requirements</p>
+                                        <p className='pabout'>•	<i> Contractual</i></p>
+                                        <p className='pabout'>• <i> Contract-to-Hire</i></p>
+                                        <p className='pabout'>•	<i> Direct Hire</i></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
