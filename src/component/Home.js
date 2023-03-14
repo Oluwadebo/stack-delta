@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
-import Footer from './Footer';
 import image from './asset/image.jpg'
 import project from './asset/project.png'
 import project1 from './asset/project1.png'
@@ -536,7 +535,6 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <Footer />
             </div>
         </>
     )

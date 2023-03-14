@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
-import Footer from './Footer';
 import homefourimg from './asset/home-four-img.png'
 import aboutimg1 from './asset/about-img1.jpg'
 import chooseimg from './asset/choose-img.jpg'
@@ -332,7 +331,6 @@ const AaboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         </>
     )

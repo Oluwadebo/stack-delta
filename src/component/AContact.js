@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
 import Contactus from './asset/ContactUs.jpg'
-import Footer from './Footer';
 import * as yup from "yup";
 import { useFormik } from "formik";
 
@@ -303,7 +302,6 @@ const AContact = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
         </>
     )

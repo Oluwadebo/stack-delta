@@ -8,7 +8,6 @@ import servicesimg3 from './asset/services-img3.jpg'
 import servicesimg4 from './asset/services-img4.jpg'
 import servicesimg5 from './asset/services-img5.jpg'
 import servicesimg6 from './asset/services-img6.jpg'
-import Footer from './Footer';
 
 
 const Aservice = () => {
@@ -348,7 +347,6 @@ const Aservice = () => {
                         </div>
                     </div>
                 </section>
-                <Footer />
             </div>
         </>
     )

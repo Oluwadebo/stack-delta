@@ -1,16 +1,66 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import download from './asset/download.png'
+import chooseimg1 from './asset/choose-img1.jpg'
 import clientuserimg1 from './asset/client-user-img1.png'
 import Footer from './Footer';
+import * as yup from "yup";
+import { useFormik } from "formik";
+import { useState } from 'react';
 
 const Careeres = () => {
+    const [file, setfile] = useState("");
+
     const scrollup = () => {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         })
     }
+    let number = new RegExp(`(?=.*[0-9])`);
+    const getfile = (e) => {
+        let myfile = e.target.files[0];
+        let reader = new FileReader();
+        reader.readAsDataURL(myfile)
+        reader.onload = () => {
+            setfile(reader.result);
+        }
+    }
+    // console.log(file);
+    const formik = useFormik({
+        initialValues: {
+            name: "",
+            email: "",
+            number: "",
+            AOI: "",
+            Notes: "",
+        },
+        onSubmit: (values) => {
+            let infor = {name:values.name,email:values.email,number:values.number,AOI:values.AOI,Notes:values.Notes,Resume:file}
+        },
+        validationSchema: yup.object({
+            name: yup
+                .string()
+                .required("Please Enter Your Name")
+                .min(3, "must be Your Name"),
+            number: yup
+                .string()
+                .required("Please Enter Your number")
+                .matches(number, "Must be a number")
+                .min(10, "must be Your reachable number"),
+            email: yup
+                .string()
+                .required("Please Enter Your Email")
+                .email("must be a valid email"),
+            AOI: yup
+                .string()
+                .required("Please Enter Your Area of Interest")
+                .min(3, "must be Your Subject"),
+            Notes: yup
+                .string()
+                .required("Write your Notes"),
+        }),
+    })
     return (
         <>
             <div className="">
@@ -119,7 +169,7 @@ const Careeres = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="clients-slider-img">
-                                    <img src={clientuserimg1} alt="Images"/>
+                                    <img src={clientuserimg1} alt="Images" />
                                     <div className="clients-slider-circle"></div>
                                 </div>
                             </div>
@@ -138,7 +188,123 @@ const Careeres = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
+                <div className="contact-form-area py-3" id="individualscreen">
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <h2>Let's Send Us a your Profile</h2>
+                        </div>
+                        <div className="row pt-5">
+                            <div className="col-lg-5">
+                                <div className="choose-img-two">
+                                    <img src={chooseimg1} height="500" alt="About Images" />
+                                </div>
+                            </div>
+                            <div className="col-lg-7">
+                                <div className="contact-form">
+                                    <form action="" onSubmit={formik.handleSubmit}>
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <label>Your Full Name <span>*</span></label>
+                                                    <input type="text" name="name" id="name" className={
+                                                        formik.errors.name && formik.touched.name
+                                                            ? "form-control fstyle is-invalid"
+                                                            : "form-control fstyle"
+                                                    }
+                                                        onChange={formik.handleChange}
+                                                        onBlur={formik.handleBlur} placeholder="Name" />
+                                                    {formik.touched.name && (
+                                                        <div style={{ color: "red" }} className="my-2">
+                                                            {formik.errors.name}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <label>Your Email Id <span>*</span></label>
+                                                    <input type="email" name="email" id="email" className={
+                                                        formik.errors.email && formik.touched.email
+                                                            ? "form-control fstyle is-invalid"
+                                                            : "form-control fstyle"
+                                                    }
+                                                        onChange={formik.handleChange}
+                                                        onBlur={formik.handleBlur}
+                                                        placeholder="Email" />
+                                                    {formik.touched.email && (
+                                                        <div style={{ color: "red" }} className="my-2">
+                                                            {formik.errors.email}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <label>Your Contact Number <span>*</span></label>
+                                                    <input type="text" name="number" maxLength={11} className={
+                                                        formik.errors.number && formik.touched.number
+                                                            ? "form-control fstyle is-invalid"
+                                                            : "form-control fstyle"
+                                                    }
+                                                        onChange={formik.handleChange}
+                                                        onBlur={formik.handleBlur} placeholder="Phone Number" />
+                                                    {formik.touched.number && (
+                                                        <div style={{ color: "red" }} className="my-2">
+                                                            {formik.errors.number}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <label>Area of Interest <span>*</span></label>
+                                                    <input type="text" name="AOI" className={
+                                                        formik.errors.AOI && formik.touched.AOI
+                                                            ? "form-control fstyle is-invalid"
+                                                            : "form-control fstyle"
+                                                    }
+                                                        onChange={formik.handleChange}
+                                                        onBlur={formik.handleBlur} placeholder="Area of Interest" />
+                                                    {formik.touched.AOI && (
+                                                        <div style={{ color: "red" }} className="my-2">
+                                                            {formik.errors.AOI}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="form-group">
+                                                    <label>Upload Your Resume <span>*</span></label>
+                                                    <input type="file" className='form-control fstyle' onChange={(e) => getfile(e)} accept=".doc,.docx" />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="form-group">
+                                                    <label>Notes <span>*</span></label>
+                                                    <textarea name="Notes" className={
+                                                        formik.errors.Notes && formik.touched.Notes
+                                                            ? "form-control fstyle is-invalid"
+                                                            : "form-control fstyle"
+                                                    }
+                                                        onChange={formik.handleChange}
+                                                        onBlur={formik.handleBlur} cols="30" rows="4" placeholder="Your Message"></textarea>
+                                                    {formik.touched.Notes && (
+                                                        <div style={{ color: "red" }} className="my-2">
+                                                            {formik.errors.Notes}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12 col-md-12 text-center mt-3">
+                                                <button type="submit" className="default-btn btn-bg-two border-radius-50">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
